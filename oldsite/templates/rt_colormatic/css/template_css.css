@@ -1,0 +1,860 @@
+/* @group Main */
+
+html {
+  /* this is a hack to force scrollbars on at 
+     all times so that the page does not jump
+     when going from short to long pages */
+  height: 100%;
+  margin-bottom: 1px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+  /* setup some more readable paragraph spacing */
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+h1, h2, h3, h4, h4 {
+	/* setup some more readable header spacing */
+	padding-bottom: 5px;
+	margin: 15px 0;
+}
+
+/* @group Fonts */
+
+/* @group Sizes */
+
+
+body {
+	font-size: 15px;
+}
+
+body.f-smaller {
+	font-size: 11px;
+}
+
+body.f-default {
+	font-size: 15px;
+}
+
+body.f-larger {
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 115%;  /* font-size: 200%; */
+}
+
+h2 {
+	font-size: 112%;  /* font-size: 180%; */
+}
+
+h3 { 
+   font-size: 110%; /* font-size: 150%; */
+}
+
+h4 {
+	font-size:  105%;  /* font-size: 120%; */
+}
+
+.small,
+.modifydate,
+.createdate,
+div.mosimage_caption {
+	font-size: 95%;
+}
+
+div.moduletable h3,
+.componentheading {
+	font-size: 120%;
+}
+
+.contentheading {
+	font-size: 120%;
+}
+
+.componentheading {
+ margin-bottom: 15px;
+}
+
+td.componentheading {
+	padding-bottom: 15px;
+}
+
+/* @end */
+
+/* @group Family */
+
+body {
+		line-height: 135%;
+		font-family: Arial, Helvetica, sans-serif;
+}
+
+.contentheading,
+.componentheading {
+	font-weight: bold;
+}
+
+
+a:link,
+a:visited {
+	/* color: see style css */
+	text-decoration: none;
+}
+
+a:hover {
+
+	text-decoration: underline;
+}
+
+/* @end */
+
+/* @end */
+
+/* @end */
+
+/* @group Structure */
+
+/* @group slidebox */
+
+#fxContainer {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 20;
+	width: 100%;
+}
+
+#fxTarget { 
+	width: 100%;
+	position: relative;
+	top: 0;
+	z-index: 19;
+	overflow: hidden;
+	height: 0px;
+}
+
+#fxPadding {
+	visibility: hidden;
+	padding: 0 45px;
+}
+
+#fxShadow {
+	position: relative;
+	width: 100%;
+	height: 6px;
+	overflow: hidden;
+	z-index: 20;
+}
+
+#fxTab {
+	position: relative;
+	bottom: 0;
+	margin: -6px auto;
+	text-align: center;
+	height: 38px;
+	line-height: 36px;
+	font-weight: bold;
+	width: 162px;
+	z-index: 21;
+}
+
+#fxTab a:link,
+#fxTab a:visited,
+#fxContainer a:link,
+#fxContainer a:visited {
+	z-index: 100;
+}
+
+#fxTab a:hover {
+	text-decoration: none;
+}
+
+/* @end */
+
+/* @group section1 */
+
+div#section1 {
+	padding: 0 15px;
+}
+
+div#section1 td.section {
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+div#section1 a.readon {
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group mainbody */
+
+div#mainbody {
+	padding: 10px 15px 15px 15px;
+}
+
+div#mainbody .contentheading {
+	font-size: 200%;
+}
+
+div#mainbody a.readon {
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group section2 */
+
+div#section2 {
+	padding: 0 15px 15px 15px;
+}
+
+div#section2 td.section {
+	padding-top: 10px;
+}
+
+div#section2 a.readon {
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group section3 */
+
+div#section3 {
+	padding: 0 15px 15px 15px;
+}
+
+div#section3 td.section {
+	padding-top: 10px;
+}
+
+div#section3 a.readon {
+	font-weight: bold;
+}
+
+/* @end */
+
+div#template {
+	padding-top: 18px;
+}
+
+div#header .rk-2 {
+	height: 110px;
+	overflow: hidden;
+}
+
+div#logo {
+position: absolute;
+left: 0;
+top: 0;
+float: left;
+width: 298px;
+height: 75px;
+background: url(http://www.visitchristchurch.org/images/logo.jpg) 0 0 no-repeat;
+margin-left: 30px;
+margin-top: 25px;
+}
+
+div#top {
+	margin-left:  370px;
+	height: 110px;
+}
+
+div#top .padding {
+	padding:  10px;
+}
+
+div#horiz-menu {
+	height: 30px;
+}
+
+table.sections .contentheading {
+	font-size: 145%;
+}
+
+table.sections div.moduletable {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+table.mainbody,
+table.usermodules,
+table.sections {
+	width: 100%;
+	padding: 0;
+}
+
+td.section {
+	padding: 0px 10px;
+}
+
+td.section.w49 {
+	width: 50%;
+}
+
+td.section.w24 {
+	width: 33%;
+}
+
+
+td.section.divider {
+	padding-left: 30px;
+}
+
+/********************************************************************
+ * Change this setting below to adjust the width of the side column *
+ ********************************************************************/
+
+td.left .padding {
+	padding: 0 5px 0 25px;	
+}
+
+td.right .padding {
+	padding: 0 25px 0 5px;
+}
+
+td.mainbody .padding {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div#hdiv {
+	height: 7px;
+	overflow: hidden;
+}
+
+div#footer .rk-2 {
+	height: 105px;
+	overflow: hidden;
+}
+
+div#the-footer {
+	text-align: center;
+}
+
+img#rocket {
+	width: 150px;
+	height: 50px;
+}
+
+/* @group menus */
+
+/* @group Horiz Menu */
+
+div#horiz-menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+div#horiz-menu li {
+	margin: 0;
+	padding: 0;
+	padding-right: 2px;
+	float: left;
+	list-style: none;
+}
+
+div#horiz-menu a:link,
+div#horiz-menu a:visited {
+	display: block;
+	float: left;
+	padding: 0 25px;
+	height: 30px;
+	line-height: 30px;
+	/*font-weight: bold; */
+	text-decoration: none;
+}
+
+/* @end */
+
+/* @group Side Menu */
+
+div.moduletable ul.sidenav,
+div.moduletable ul.sidenav ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul.sidenav li {
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+
+ul.sidenav li li {
+	margin-left: 15px;
+}
+
+
+ul.sidenav img {
+	float: left;
+	margin-top: 5px;
+}
+
+ul.sidenav a {
+	margin-left: 0px;
+	padding-left: 10px;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+ul.sidenav a:hover {
+	text-decoration: none;
+}
+
+/* @end */
+
+/* @group Contact Menu */
+
+div#top ul {
+	margin: 0;
+	padding: 0;
+	float: right;
+	font-weight: bold;
+}
+
+div#top li {
+	float:  left;
+	list-style: none;
+	margin-right: 20px;
+}
+
+div#top li img {
+	float:  left;
+	vertical-align: middle;
+}
+
+div#top a.mainlevel {
+	display:  block;
+	float:  left;
+	background: none;
+	margin: 0;
+	padding: 0 5px;
+	font-weight:  bold;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group content */
+
+/* @group Code */
+
+pre {
+	padding: 10px;
+}
+
+/* @end */
+
+/* @group Notices */
+
+span.alert,
+span.info,
+span.download,
+span.note {
+	display: block;
+	padding: 10px 10px 10px 50px;
+	margin: 15px 0;	
+}
+
+/* @end */
+
+/* @group Lists */
+
+td.mainbody ul {
+	margin-left: 10px;
+}
+
+td.mainbody li {
+	padding-left: 0px;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+
+#mainbody ul.arrow,
+#mainbody ul.arrows,
+#mainbody ul.check,
+#mainbody ul.clip,
+#mainbody ul.pencil,
+#mainbody ul.plus {
+	margin-left: 35px;
+	padding: 0;
+}
+
+ul.arrow li,
+ul.arrows li,
+ul.check li,
+ul.clip li,
+ul.pencil li,
+ul.plus li {
+	list-style: none;	
+	padding-bottom: 15px;
+	padding-left: 40px;
+}
+
+/* @end */
+
+/* @group Blockquote */
+
+blockquote {
+	width: auto;
+	padding: 10px 10px 10px 80px;
+	margin: 15px 0;
+}
+
+/* @group My Group */
+
+/* @end */
+
+/* @end */
+
+/* @group Login Area */
+
+#fxPadding div.moduletable h3 {
+	float: left;
+	margin: 0;
+	padding: 0;
+	line-height: 40px;
+	height: 40px;
+}
+
+#fxPadding form {
+	float: left;
+	padding-left: 30px;
+	height: 22px;
+	margin-top: 8px;
+}
+
+#fxPadding div.loginelement {
+	float: left;
+	margin-left: 30px;
+	height: 22px;
+	line-height: 22px
+}
+
+#fxPadding div.loginelement input {
+	width: 100px;
+	padding-left: 5px;
+}
+
+span.loginsubmit,
+span.logoutsubmit {
+	display: block;
+	padding-left: 8px;
+	margin-left: 10px;
+	line-height: 25px;
+	width: 85px;
+	float: left;
+	cursor: pointer;
+}
+
+/* @end */
+
+/* @group Regular Content Items */
+
+table.contentpaneopen tbody tr td span.small,
+td.createdate {
+	padding-left: 20px;
+}
+
+/* @end */
+
+/* @group Latest news */
+
+div.moduletable ul {
+	margin: 10px 10px;
+	padding: 0 10px;
+	font-weight: bold;
+	}
+
+div#mainbody ul.latestnews {
+padding: 0;
+margin: 0;
+}
+
+div#mainbody ul.latestnews li {
+	list-style: none;
+	margin:  0;
+	padding: 0;
+	padding-left: 45px;
+	margin-bottom: 10px;
+	font-weight: bold;
+		}
+
+div#mainbody ul.latestnews li a {
+	font-weight: bold;
+		
+}
+
+table.moduletablerecentpostings {
+font-weight:bold;
+a:link color: #FFFFFF;
+font: color:#FFFFFF;
+text-decoration: underline;
+}
+
+
+table.moduletablerecentpostings ul{
+font-weight:bold;
+font: color:#FFFFFF;
+A:link color: #FFFFFF;
+A:hover color: red;
+
+}
+/* @06262007 */
+/* @end */
+
+.screenshot {
+	float:  right;
+	margin-top: -35px;
+	margin-right: -24px;
+}
+
+.hide {
+	display: none;
+}
+
+form {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+table.blog span.article_seperator {
+	display: block;
+	height: 20px;
+}
+
+.highlight {
+  background-color: #ffc;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Joomla Core */
+
+/* @group modules */
+
+div.moduletable h3 {
+	margin: 0;
+	padding: 10px 0;
+}
+
+td.left div.moduletable,
+td.right div.moduletable {
+	margin-bottom: 25px;
+}
+
+/* @end */
+
+/* @group content */
+
+.contentheading {
+	padding: 10px 0;
+	line-height:100%;
+}
+
+td.buttonheading {
+ 	vertical-align: middle;
+}
+
+td.buttonheading img {
+	margin-right: 5px;
+}
+
+table.contentpaneopen, table.contentpane {
+  border-collapse: collapse;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+div.contentpane, div.contentpaneopen {
+  width: 100%;
+}
+
+.clr {
+	clear: both;
+}
+
+div.mosimage {
+  margin: 5px;
+}
+
+a.readon {
+	margin-top: 15px;
+	display: block;
+	float: left;
+	width:  116px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 5px;
+	/* background: see style css */
+}
+
+a.readon:hover {
+	text-decoration: none;
+}
+
+span.content_rating img {
+	vertical-align: top;
+}
+
+.modifydate {
+	height: 20px;
+	vertical-align: bottom;
+}
+
+.createdate {
+	height: 20px;
+	vertical-align: top;
+	vertical-align: top;
+	padding-bottom: 5px;
+	padding-top: 0px;
+}
+
+table.contenttoc {
+  margin: 5px;
+  padding: 5px;
+}
+
+table.contenttoc td {
+  padding: 0 5px;
+}
+
+/* @end */
+
+/* @group pathway */
+
+span.pathway {
+	display: block;
+	height: 16px;
+	line-height: 16px;
+	vertical-align: middle;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+span.pathway img {
+	margin: 0 7px 0 9px;
+	border: 0;
+	width: 13px;
+	vertical-align: middle;
+}
+
+div#pathway {
+	margin-bottom: 10px;
+	padding-left: 8px;
+}
+
+/* @end */
+
+/* @group sections */
+
+table.mainbody td.mainbody td.sectiontableheader {
+  font-weight: bold;
+  padding: 4px;
+  line-height: 20px;
+}
+
+tr.sectiontableentry1 td,
+tr.sectiontableentry2 td,
+td.sectiontableentry1,
+td.sectiontableentry2 {
+  padding: 5px;
+}
+
+/* @group My Group */
+
+/* @end */
+
+.pollstableborder {
+	text-align: left;
+}
+
+.pollstableborder .sectiontableentry1,
+.pollstableborder .sectiontableentry2 {
+	background: none;
+	border:  0;
+}
+
+
+/* @end */
+
+/* @group mainmenu */
+
+a.mainlevel:link,
+a.mainlevel:visited {
+	text-decoration: none;
+}
+
+a.mainlevel {
+	font-weight: bold;
+	display: block;
+	padding: 6px 0 2px 20px;
+	margin-bottom: 3px;
+}
+
+a.sublevel:link,
+a.sublevel:visited {
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+a.mainlevel:hover {
+	text-decoration: underline;
+}
+
+a.sublevel:hover {
+	text-decoration: none;
+}
+
+.nounder {
+	text-decoration: none;
+	border: 0;
+}
+
+.style-wrapper {
+	padding-left: 70px;
+	padding-top: 30px;
+}
+
+.style {
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+/* @end */
+
+/* @end */
+
+/*
+Images are wrapped in divs classed "flickr_badge_image" with ids
+"flickr_badge_imageX" where "X" is an integer specifying ordinal position.
+Below are some styles to get you started!
+*/
+#flickr_badge_uber_wrapper {text-align:center;}
+#flickr_badge_wrapper {padding:10px 0 10px 0;}
+.flickr_badge_image { float:left;}
+.flickr_badge_image img {float: left; margin: 0 3px 3px 0;}
+#flickr_badge_icon {float:left; margin-right:5px;}
+#flickr_www {display:block; padding:0 10px 0 10px !important; font: 11px Arial, Helvetica, Sans serif !important; color:#3993ff !important;}

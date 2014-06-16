@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<!-- Common strings -->
+	<string id="error">
+		<english>Error</english>
+	</string>	
+	<string id="success">
+		<english>Success</english>
+	</string>	
+	<string id="ok">
+		<english>OK</english>
+	</string>
+	<string id="cancel">
+		<english>Cancel</english>
+	</string>
+	<string id="yes">
+		<english>Yes</english>
+	</string>
+	<string id="no">
+		<english>No</english>
+	</string>
+	<string id="confirm">
+		<english>Confirm</english>
+	</string>
+
+	<!-- Login interface -->
+	<string id="login_lblpass">
+		<english>Password</english>
+	</string>
+	<string id="login_btnlogin">
+		<english>Log in</english>
+	</string>
+	<string id="login_btnchpass">
+		<english>Change password</english>
+	</string>
+	<string id="login_chksavepass">
+		<english>Save</english>
+	</string>
+
+	<!-- Add items from bucket window -->	
+	<string id="addfrombkt_lblwindow">
+		<english>Add items from the bucket</english>
+	</string>
+	<string id="addfrombkt_lblphotos">
+		<english>Photos</english>
+	</string>
+	<string id="addfrombkt_lblvideos">
+		<english>Videos</english>
+	</string>
+	<string id="addfrombkt_lblfilter">
+		<english>Filter</english>
+	</string>
+	<string id="addfrombkt_chkremitems">
+		<english>Remove from bucket</english>
+	</string>
+	<string id="addfrombkt_btnadditems">
+		<english>Add items</english>
+	</string>
+	<string id="addfrombkt_btncancel">
+		<english>Cancel</english>
+	</string>
+	<string id="addfrombkt_msgseloneitem">
+		<english>Select at least one item</english>
+	</string>
+	<string id="addfrombkt_headfile">
+		<english>File</english>
+	</string>
+	<string id="addfrombkt_progadditems">
+		<english>Adding items...</english>
+	</string>
+
+	<!-- Change password window -->	
+	<string id="chgpass_lblwindow">
+		<english>Change password</english>
+	</string>
+	<string id="chgpass_currpass">
+		<english>Current password</english>
+	</string>
+	<string id="chgpass_newpass">
+		<english>New password</english>
+	</string>
+	<string id="chgpass_confirmpass">
+		<english>Confirm password</english>
+	</string>
+	<string id="chgpass_btnchange">
+		<english>Change</english>
+	</string>
+	<string id="chgpass_btncancel">
+		<english>Cancel</english>
+	</string>
+	<string id="chgpass_msgnoemptypass">
+		<english>Current password cannot be empty</english>
+	</string>
+	<string id="chgpass_msgnonewemptypass">
+		<english>New password cannot be empty</english>
+	</string>
+	<string id="chgpass_msgmismatch">
+		<english>New password does not match confirmation</english>
+	</string>
+	<string id="chgpass_succchange">
+		<english>Password successfully changed</english>
+	</string>
+	<string id="chgpass_invpass">
+		<english>Invalid login password</english>
+	</string>
+
+	<!-- Create album window -->	
+	<string id="crtalbum_lblwindow">
+		<english>Create album</english>
+	</string>
+	<string id="crtalbum_lbltitle">
+		<english>Title</english>
+	</string>
+	<string id="crtalbum_lblplacein">
+		<english>Place in</english>
+	</string>
+	<string id="crtalbum_btncreate">
+		<english>Create</english>
+	</string>
+	<string id="crtalbum_btncancel">
+		<english>Cancel</english>
+	</string>
+	<string id="crtalbum_nametoplevel">
+		<english>Top level</english>
+	</string>
+
+	<!-- Create album thumbnail window -->	
+	<string id="crtalbthumb_lblwindow">
+		<english>Create album or collection thumbnail</english>
+	</string>
+	<string id="crtalbthumb_lblassignto">
+		<english>Assign to</english>
+	</string>
+	<string id="crtalbthumb_btncreate">
+		<english>Create</english>
+	</string>
+	<string id="crtalbthumb_btncancel">
+		<english>Cancel</english>
+	</string>
+
+	<!-- Create collection window -->	
+	<string id="crtcoll_lblwindow">
+		<english>Create collection</english>
+	</string>
+	<string id="crtcoll_lbltitle">
+		<english>Title</english>
+	</string>
+	<string id="crtcoll_lblplacein">
+		<english>Place in</english>
+	</string>
+	<string id="crtcoll_btncreate">
+		<english>Create</english>
+	</string>
+	<string id="crtcoll_btncancel">
+		<english>Cancel</english>
+	</string>
+	<string id="crtcoll_nametoplevel">
+		<english>Top level</english>
+	</string>
+
+	<!-- Move album/collection window -->	
+	<string id="movealb_lblwindow">
+		<english>Move album or collection</english>
+	</string>
+	<string id="movealb_lblmoveto">
+		<english>Title</english>
+	</string>
+	<string id="movealb_btnmove">
+		<english>Move</english>
+	</string>
+	<string id="movealb_btncancel">
+		<english>Cancel</english>
+	</string>
+	<string id="movealb_nametoplevel">
+		<english>Top level</english>
+	</string>
+
+	<!-- Move photos window -->	
+	<string id="movephoto_lblwindow">
+		<english>Move photos and videos</english>
+	</string>
+	<string id="movephoto_lblmoveto">
+		<english>Title</english>
+	</string>
+	<string id="movephoto_btnmove">
+		<english>Move</english>
+	</string>
+	<string id="movephoto_btncancel">
+		<english>Cancel</english>
+	</string>
+	<string id="movephoto_msglblselalbfst">
+		<english>Select an album first</english>
+	</string>
+	<string id="movephoto_msgnomovetocoll">
+		<english>Cannot move to a collection. Select an album instead.</english>
+	</string>
+	
+	<!-- Photo preview window -->
+	<string id="photopreview_lblwindow">
+		<english>Photo preview</english>
+	</string>
+
+	<!-- Rename album/collection window -->	
+	<string id="renalbum_lblwindowalb">
+		<english>Rename album</english>
+	</string>
+	<string id="renalbum_lblwindowcoll">
+		<english>Rename collection</english>
+	</string>
+	<string id="renalbum_lbltitle">
+		<english>Title</english>
+	</string>
+	<string id="renalbum_btnrename">
+		<english>Rename</english>
+	</string>
+	<string id="renalbum_btncancel">
+		<english>Cancel</english>
+	</string>
+
+	<!-- Video preview window -->	
+	<string id="vidpreview_lblwindow">
+		<english>Video preview</english>
+	</string>
+	<string id="vidpreview_btncapthumb">
+		<english>Capture to thumbnail</english>
+	</string>
+	<string id="vidpreview_progencoding">
+		<english>Encoding</english>
+	</string>
+	<string id="vidpreview_proguploading">
+		<english>Uploading</english>
+	</string>
+	<string id="vidpreview_msgplzwait">
+		<english>Please wait a few seconds \n before encoder becomes ready</english>
+	</string>
+
+	<!-- Upload photos window -->	
+	<string id="upphotos_lblwindow">
+		<english>Upload photos</english>
+	</string>
+	<string id="upphotos_btnaddphotos">
+		<english>Add photos</english>
+	</string>
+	<string id="upphotos_btnupload">
+		<english>Upload</english>
+	</string>
+	<string id="upphotos_btncancel">
+		<english>Cancel</english>
+	</string>
+	<string id="upphotos_lblsize">
+		<english>{0} KB</english>
+	</string>
+	<string id="upphotos_lblupresizing">
+		<english>Resizing {0}</english>
+	</string>
+	<string id="upphotos_lblupuploading">
+		<english>Uploading {0}</english>
+	</string>
+	<string id="upphotos_imgdesc">
+		<english>Images (*.jpg, *.jpeg, *.png, *.tif, *.tiff)</english>
+	</string>
+	<string id="upphotos_headfile">
+		<english>File</english>
+	</string>
+	<string id="upphotos_headsize">
+		<english>Size</english>
+	</string>
+	<string id="upphotos_msgdoneuploading">
+		<english>Finished uploading photos</english>
+	</string>
+	<string id="upphotos_msgerrcomm">
+		<english>Could not communicate with the server</english>
+	</string>
+	<string id="upphotos_msgerrfile">
+		<english>Could not read file</english>
+	</string>
+	<string id="upphotos_msgsecerr">
+		<english>Security error</english>
+	</string>
+	
+	<!-- Upload videos window -->
+	<string id="upvideos_lblwindow">
+		<english>Upload photos</english>
+	</string>
+	<string id="upvideos_btnaddvideos">
+		<english>Add videos</english>
+	</string>
+	<string id="upvideos_btnupload">
+		<english>Upload</english>
+	</string>
+	<string id="upvideos_btncancel">
+		<english>Cancel</english>
+	</string>
+	<string id="upvideos_lblsize">
+		<english>{0} KB</english>
+	</string>
+	<string id="upvideos_lblupuploading">
+		<english>Uploading {0}</english>
+	</string>
+	<string id="upvideos_viddesc">
+		<english>Flash videos (*.flv)</english>
+	</string>
+	<string id="upvideos_headfile">
+		<english>File</english>
+	</string>
+	<string id="upvideos_headsize">
+		<english>Size</english>		
+	</string>
+	<string id="upvideos_msgdoneuploading">
+		<english>Finished uploading videos</english>
+	</string>
+	<string id="upvideos_msgerrcomm">
+		<english>Could not communicate with the server</english>
+	</string>
+	<string id="upvideos_msgerrfile">
+		<english>Could not read file</english>
+	</string>
+	<string id="upvideos_msgsecerr">
+		<english>Security error</english>
+	</string>	
+	
+	<!-- Settings window -->
+	<string id="settings_lblwindow">
+		<english>Settings</english>
+	</string>
+	<string id="settings_btnapply">
+		<english>Apply</english>
+	</string>
+	<string id="settings_btncancel">
+		<english>Cancel</english>
+	</string>
+	<string id="settings_btnphotouploads">
+		<english>Photo uploads</english>
+	</string>
+	<string id="settings_btnvideo">
+		<english>Video</english>
+	</string>
+	<string id="settings_msgsetapplied">
+		<english>New settings applied</english>
+	</string>
+	<string id="settings_photoup_lblresizing">
+		<english>Resizing</english>
+	</string>
+	<string id="settings_photoup_lblcopyright">
+		<english>Copyright</english>
+	</string>
+	<string id="settings_photoup_lblsmfitbox">
+		<english>Small fitting box</english>
+	</string>
+	<string id="settings_photoup_lblnorfitbox">
+		<english>Medium fitting box</english>
+	</string>
+	<string id="settings_photoup_lbllgfitbox">
+		<english>Large fitting box</english>
+	</string>
+	<string id="settings_photoup_lblquality">
+		<english>Quality</english>
+	</string>
+	<string id="settings_photoup_lbltextsize">
+		<english>Text size</english>
+	</string>
+	<string id="settings_photoup_lbltextcolor">
+		<english>Text color</english>
+	</string>
+	<string id="settings_photoup_lblred">
+		<english>Red</english>
+	</string>
+	<string id="settings_photoup_lblgreen">
+		<english>Green</english>
+	</string>
+	<string id="settings_photoup_lblblue">
+		<english>Blue</english>
+	</string>
+	<string id="settings_photoup_lblopacity">
+		<english>Opacity</english>
+	</string>
+	<string id="settings_photoup_chkcrtlgimg">
+		<english>Create large image</english>
+	</string>
+	<string id="settings_photoup_chkembedcopy">
+		<english>Embed copyright text</english>
+	</string>
+	<string id="settings_photoup_chkembedwmark">
+		<english>Embed watermark</english>
+	</string>
+	<string id="settings_video_lblvideothumb">
+		<english>Thumbnail</english>
+	</string>
+	<string id="settings_video_lblsize">
+		<english>Size</english>
+	</string>
+	<string id="settings_video_lblquality">
+		<english>Quality</english>
+	</string>
+	
+	<!-- Main interface -->
+	<string id="main_btnlogout">
+		<english>Log out</english>
+	</string>
+	<string id="main_btnhelp">
+		<english>Help</english>
+	</string>
+	<string id="main_btnsettings">
+		<english>Settings</english>
+	</string>
+	<string id="main_btnuploadphotos">
+		<english>Upload photos</english>
+	</string>
+	<string id="main_btnuploadvideos">
+		<english>Upload videos</english>
+	</string>
+	<string id="main_btnaddfrombkt">
+		<english>Add from bucket</english>
+	</string>
+	<string id="main_btnmvalbitemup">
+		<english>Up</english>
+	</string>
+	<string id="main_btnmvalbitemdown">
+		<english>Down</english>
+	</string>
+	<string id="main_btnmvalbitemto">
+		<english>Move to</english>
+	</string>
+	<string id="main_btndelalbitems">
+		<english>Delete items</english>
+	</string>
+	<string id="main_btncrtalbthumb">
+		<english>Create album thumb</english>
+	</string>
+	<string id="main_btnrenalbum">
+		<english>Rename</english>
+	</string>
+	<string id="main_btnmvalbumto">
+		<english>Move to</english>
+	</string>
+	<string id="main_btndelalbum">
+		<english>Delete</english>
+	</string>
+	<string id="main_btnmvalbumup">
+		<english>Up</english>
+	</string>
+	<string id="main_btnmvalbumdown">
+		<english>Down</english>
+	</string>
+	<string id="main_btncrtcoll">
+		<english>Create collection</english>
+	</string>
+	<string id="main_btncrtalb">
+		<english>Create album</english>
+	</string>
+	<string id="main_lblalbums">
+		<english>Albums</english>
+	</string>
+	<string id="main_lblphotosvideos">
+		<english>Photos and videos</english>
+	</string>
+	<string id="main_lblalbumdesc">
+		<english>Description</english>
+	</string>
+	<string id="main_lblphotodesc">
+		<english>Description</english>
+	</string>
+	<string id="main_lblid">
+		<english>ID: {0}</english>
+	</string>
+	<string id="main_msgdelselalbitemsq">
+		<english>Delete selected items?</english>
+	</string>
+	<string id="main_msgselitemsq">
+		<english>Delete selected items?</english>
+	</string>
+	<string id="main_msgneedreproc">
+		<english>Your albums need reprocessing in order to assign IDs. \n Proceed with reprocessing now?</english>
+	</string>
+	<string id="main_headtitle">
+		<english>Title</english>
+	</string>
+	<string id="main_headdate">
+		<english>Date</english>
+	</string>
+	<string id="main_headlocation">
+		<english>Location</english>
+	</string>
+	<string id="main_msgdelselalbq">
+		<english>Delete selected album or collection?</english>
+	</string>
+	<string id="main_menuapplytitle">
+		<english>Apply title to rest</english>
+	</string>
+	<string id="main_menuapplydate">
+		<english>Apply date to rest</english>
+	</string>
+	<string id="main_menuapplylocation">
+		<english>Apply location to rest</english>
+	</string>
+	<string id="main_menuapplydesc">
+		<english>Apply description to rest</english>
+	</string>
+	<string id="main_menuapplydescchg">
+		<english>Apply description changes</english>
+	</string>
+	<string id="main_msgselsinglephoto">
+		<english>Select a single photo</english>
+	</string>
+</strings>

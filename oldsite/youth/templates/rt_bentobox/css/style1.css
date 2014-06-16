@@ -1,0 +1,535 @@
+/* Style1 - light blue with orange */
+
+/* General Style */
+
+body {
+		color: #4f4f4f;
+}
+
+a:link,
+a:visited {
+	color: #E14B04;
+}
+
+a:hover {
+	color: #606c7a;
+}
+
+/* access */
+
+a.large .button {
+	background: url(../images/style1/access-large.png);
+}
+
+a.small .button {
+	background: url(../images/style1/access-small.png);
+}
+
+a.default .button {
+	background: url(../images/style1/access-med.png);
+}
+
+/* Layout */
+#page-bg {
+  background: #fff url(../images/style1/bg.png) repeat-x;
+}
+
+#mainbody {
+	background: #fff url(../images/style1/head-bg-tabs.png) 0 0 repeat-x;
+}
+
+.suckerfish #mainbody {
+	background: #fff url(../images/style1/head-bg-sucker.png) 0 0 repeat-x;	
+}
+
+#mainbody .shad-1 {
+	background: url(../images/style1/shadow-l.png) 0 0 repeat-y;
+}
+
+#mainbody .shad-2 {
+	background: url(../images/style1/shadow-r.png) 100% 0 repeat-y;
+}
+
+#mainbody .shad-3 {
+	background: url(../images/style1/head-r-tabs.png) 100% 0 no-repeat;
+}
+
+.suckerfish #mainbody .shad-3 {
+	background: url(../images/style1/head-r-sucker.png) 100% 0 no-repeat;
+}
+
+#mainbody #header {
+	background: url(../images/style1/logo-tabs.png) 0 0 no-repeat;
+}
+
+.suckerfish #mainbody #header {
+	background: url(../images/style1/logo-sucker.png) 0 0 no-repeat;
+}
+
+.border-pad {
+	border-left: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #e7e7e7;
+}
+
+#content-bg {
+	background: #fff;
+}
+
+#showcase {
+	border-top: 1px solid #cbd7e8;
+	background: #F5F5F5 url(../images/style1/showcase-bg.png) 0 0 repeat-x;
+	color: #333;
+}
+
+#fakecolumn1 {
+	border-left: 194px solid #f5f5f5;
+}
+
+#fakecolumn2 {
+	background: url(../images/style1/left-div.png) 0 0 repeat-y;
+}
+
+div#leftcolumn {
+	border-top: 1px solid #fff;
+}
+
+div#inset {
+	border-bottom: 1px solid #e7e7e7;
+}
+
+#footer {
+	background: #cbd7e8 url(../images/style1/footer-bg.png) 0 0 repeat-x;
+}
+
+#bottom {
+	background: url(../images/style1/bottom-bg.png) 0 0 repeat-x;
+}
+
+#bottom .shad-1 {
+	background: url(../images/style1/bottom-r.png) 100% 0 no-repeat;
+}
+
+#bottom .shad-2 {
+	background: url(../images/style1/bottom-l.png) 0 0 no-repeat;
+}
+
+/* Modules */
+
+div.moduletable h3,
+div.module h3,
+div.module-hilite1 h3,
+div.module-hilite2 h3,
+div.module-hilite3 h3,
+div.module-hilite4 h3 {
+	color: #333;
+}
+
+#showcase div.moduletable h3 {
+	border-bottom: 4px solid #BECADD;	
+}
+
+#leftcolumn div.moduletable {
+	background: url(../images/style1/module-left-bg.png) 100% 100% no-repeat;
+}
+
+#leftcolumn div.moduletable h3 {
+	border-bottom: 4px solid #E6E6E6;
+}
+
+div.module h3,
+div.module-hilite4 h3,
+div.module-hilite1 h3 {
+	color: #333;
+	border-bottom: 4px solid #ECECEC;
+}
+
+div.module-hilite2 h3 {
+	color: #E14B04;
+	border-bottom: 4px solid #F0E5E1;	
+}
+
+div.module-hilite3 h3,
+#footer div.moduletable h3 {
+	color: #2C5EAC;
+	border-bottom: 4px solid #D5DEEC;	
+}
+
+div.module-hilite1,
+#componentcolumn div.module {
+	background: url(../images/style1/module-1-bg.png) 100% 100% no-repeat;
+}
+
+div.module-hilite2 {
+	background: url(../images/style1/module-2-tr.png) 100% 0 no-repeat;
+}
+
+div.module-hilite2 div {
+	background: url(../images/style1/module-2-tl.png) 0 0 no-repeat;
+}
+
+div.module-hilite2 div div {
+	background: url(../images/style1/module-2-br.png) 100% 100% no-repeat;
+}
+
+div.module-hilite2 div div div {
+	background: url(../images/style1/module-2-bl.png) 0 100% no-repeat;
+}
+
+div.module-hilite3  {
+	background: url(../images/style1/module-3-tr.png) 100% 0 no-repeat;
+}
+
+div.module-hilite3 div {
+	background: url(../images/style1/module-3-tl.png) 0 0 no-repeat;
+}
+
+div.module-hilite3 div div {
+	background: url(../images/style1/module-3-br.png) 100% 100% no-repeat;
+}
+
+div.module-hilite3 div div div {
+	background: url(../images/style1/module-3-bl.png) 0 100% no-repeat;
+}
+
+div.module-hilite4,
+#rightcolumn div.module {
+	background: url(../images/style1/module-4-tr.png) 100% 0 no-repeat;
+}
+
+div.module-hilite4 div,
+#rightcolumn div.module div {
+	background: url(../images/style1/module-4-tl.png) 0 0 no-repeat;
+}
+
+div.module-hilite4 div div,
+#rightcolumn div.module div div {
+	background: url(../images/style1/module-4-br.png) 100% 100% no-repeat;
+}
+
+div.module-hilite4 div div div,
+#rightcolumn div.module div div div {
+	background: url(../images/style1/module-4-bl.png) 0 100% no-repeat;
+}
+
+/* Top tabmenu styles */
+
+#tabmenu a {
+	color: #666;
+}
+
+#tabmenu li {
+	background-image: url(../images/style1/tabs-top-r-off.png);
+}
+
+#tabmenu li a {
+	background-image: url(../images/style1/tabs-top-l-off.png);
+}
+
+#tabmenu li.active_menu {
+	background-image:  url(../images/style1/tabs-top-r-on.png);	
+}
+
+#tabmenu li.active_menu a {
+	background-image: url(../images/style1/tabs-top-l-on.png);
+	color: #E14B04;
+}
+
+/**** CONTENT STYLES *****/
+
+/* headers */
+
+h1 {
+	color: #E14B04;
+}
+
+h2,h4,h5 {
+	color: #333;
+}
+
+h3 {
+	color: #475e7e;
+}
+
+
+/* Joomla styles */
+.small,
+.modifydate,
+.createdate,
+div.mosimage_caption {
+	color: #666;
+}
+
+.componentheading {
+	color: #333;
+	border-bottom: 4px solid #ECECEC;	
+}
+
+.contentheading {
+	color: #333;
+}
+
+a.readon {
+	background:  url(../images/style1/bullet-redo.png) 0 0 no-repeat;
+}
+
+span.pathway img {
+	background: url(../images/style1/arrow-round.png) 50% 50% no-repeat;
+}
+
+table.adminform textarea {
+  color: #666;
+}
+
+.sectiontableheader {
+	background: #f0f0f0;
+	border-bottom: 1px solid #ddd;
+}
+
+.sectiontableentry1,
+.sectiontableentry2 {
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.sectiontableentry2 {
+	background: #f6f6f6;
+}
+
+/* List styles */
+
+ul li {
+	background: url(../images/style1/arrow-round.png) 0 3px no-repeat;
+}
+
+ul.arrow li {
+	background: url(../images/style1/bullet-arrow.png) 0 0 no-repeat;
+}
+
+ul.check li {
+	background: url(../images/style1/bullet-check.png) 0 0 no-repeat;
+}
+
+ul.big li.big1 {
+	background: url(../images/style1/list-1.png) 0 -3px no-repeat;
+}
+
+ul.big li.big2 {
+	background: url(../images/style1/list-2.png) 0 -3px no-repeat;
+}
+
+ul.big li.big3 {
+	background: url(../images/style1/list-3.png) 0 -3px no-repeat;
+}
+
+ul.big li.big4 {
+	background: url(../images/style1/list-4.png) 0 -3px no-repeat;
+}
+
+ul.big li.big5 {
+	background: url(../images/style1/list-5.png) 0 -3px no-repeat;
+}
+
+ul.big li.big6 {
+	background: url(../images/style1/list-6.png) 0 -3px no-repeat;
+}
+
+ul.big li.big7 {
+	background: url(../images/style1/list-7.png) 0 -3px no-repeat;
+}
+
+ul.big li.big8 {
+	background: url(../images/style1/list-8.png) 0 -3px no-repeat;
+}
+
+ul.big li.big9 {
+	background: url(../images/style1/list-9.png) 0 -3px no-repeat;
+}
+
+/* Alert styles */
+
+span.alert {
+	background: #F7F1EF url(../images/icon-alert.png) 5px 5px no-repeat;
+	border-top: 4px solid #F8A88C;
+	border-bottom: 4px solid #F8A88C;
+	color: #000;
+}
+
+span.info {
+	background: #e9eef3 url(../images/icon-info.png) 5px 5px no-repeat;
+	border-top: 4px solid #aec9ef;
+	border-bottom: 4px solid #aec9ef;
+	color: #333;
+}
+
+span.star {
+	background: #ffffe6 url(../images/icon-star.png) 5px 5px no-repeat;
+	border-top: 4px solid #f6f086;
+	border-bottom: 4px solid #f6f086;
+	color: #333;
+}
+
+span.note {
+	background: #f7f7f7 url(../images/icon-note.png) 5px 5px no-repeat;
+	border-top: 4px solid #dbdbdb;
+	border-bottom: 4px solid #dbdbdb;
+	color: #333;
+}
+
+span.download {
+	background: #e6ffe1 url(../images/icon-download.png) 5px 5px no-repeat;
+	border-top: 4px solid #bbeeae;
+	border-bottom: 4px solid #bbeeae;
+	color: #333;
+}
+
+blockquote {
+	background: #f5f5f5 url(../images/quote-start.png) 5px 5px no-repeat;
+	border-top: 4px solid #D3D3D3;
+	border-bottom: 4px solid #D3D3D3;
+}
+
+blockquote p {
+	background: url(../images/quote-end.png) 100% 100% no-repeat;
+}
+
+pre {
+	background: #BFCBDC url(../images/icon-code.png) 5px 5px no-repeat;
+	border-top: 4px solid #779BCE;
+	border-bottom: 4px solid #779BCE;	
+	color: #000;
+}
+
+/* Misc styles */
+
+div.style {
+	border: 4px solid #f5f5f5;
+}
+
+#rocket {
+	background: url(../images/style1/rocket.png) 0 0 no-repeat;
+}
+
+/******* MENU SYSTEMS *******/
+
+/* Default Joomla! menu */
+a.mainlevel:link,
+a.mainlevel:visited {
+	background: url(../images/style1/menu-indicator.png) 100% 0 no-repeat;
+}
+
+a.mainlevel#active_menu,
+a.sublevel#active_menu {
+	color: #333;
+}
+
+/* SplitMenu & SplitMenu2 */
+.splitmenu #nav-main a {
+	color: #666;
+}
+
+.splitmenu #nav-main li {
+	background-image: url(../images/style1/tabs-main-r-off.png);
+}
+
+.splitmenu #nav-main li a {
+	background-image: url(../images/style1/tabs-main-l-off.png);
+}
+
+.splitmenu #nav-main li.active_menu {
+	background-image:  url(../images/style1/tabs-main-r-on.png);	
+}
+
+.splitmenu #nav-main li.active_menu a {
+	background-image: url(../images/style1/tabs-main-l-on.png);
+	color: #E14B04;
+}
+
+.splitmenu #nav-sub a {
+	color: #fff;
+}
+
+.splitmenu #nav-sub li {
+	background-image: url(../images/style1/tabs-second-r-off.png);
+}
+
+.splitmenu #nav-sub li a {
+	background-image: url(../images/style1/tabs-second-l-off.png);
+}
+
+.splitmenu #nav-sub li.active_menu {
+	background-image:  url(../images/style1/tabs-second-r-on.png);	
+}
+
+.splitmenu #nav-sub li.active_menu a {
+	background-image: url(../images/style1/tabs-second-l-on.png);
+	color: #333;
+}
+
+.splitmenu #vert-menu a {
+	background: url(../images/style1/menu-indicator.png) 100% 0 no-repeat;
+}
+
+.splitmenu #vert-menu li.active_menu a {
+	color: #333;
+}
+
+.splitmenu #vert-menu li.active_menu li a {
+	color: #E14B04;
+}
+
+/* Suckerfish Menu */
+.suckerfish #nav-sub {
+	border-right: 1px solid #d8521d;
+}
+
+.suckerfish #nav-sub ul {
+	border-left: 1px solid #ff7b16;
+}
+
+.suckerfish #nav-sub li {
+	border-left: 1px solid #d8521d;
+	border-right: 1px solid #ff7b16;	
+}
+
+.suckerfish #nav-sub a {
+	color: #F9FAFD;
+}
+
+.suckerfish #nav-sub li:hover a,
+.suckerfish #nav-sub li.sfhover a {
+	color: #333;
+}
+
+.suckerfish #nav-sub li:hover,
+.suckerfish #nav-sub li.sfhover {
+	background: url(../images/style1/sucker-active-bg.png) 0 0 repeat-x;
+	color: #333;
+	border-left: 1px solid #ecf1f7;
+	border-right: 1px solid #aebcd1;
+}
+
+.suckerfish #nav-sub li li a:link.daddy,
+.suckerfish #nav-sub li li a:visited.daddy {
+	background: url(../images/style1/sucker-bullet.png) 100% 50% no-repeat;
+}
+
+.suckerfish #nav-sub li li:hover,
+.suckerfish #nav-sub li li.sfhover {
+	background: #d2d9e2;
+}
+
+.suckerfish #nav-sub li li a:link,
+.suckerfish #nav-sub li li a:visited {
+	color: #E14B04;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ccd3dc;
+}
+
+.suckerfish #nav-sub li li {
+	background: #e3eaf3;
+	border-left: 1px solid #ccd3dc;
+	border-right: 1px solid #ccd3dc;
+}

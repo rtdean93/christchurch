@@ -1,0 +1,146 @@
+/* Red variant */
+
+a:link,
+a:visited {
+	color: #78A623;
+}
+
+a:hover {
+	color: #93cc2d;
+}
+
+ul li {
+	background: url(../images/primary/blue/li.png) 0 2px no-repeat;
+}
+
+ul.arrow li {
+	background: url(../images/primary/blue/li_arrow.png) no-repeat;
+}
+
+ul.big li {
+	background: url(../images/primary/blue/li_big.png) 0 1px no-repeat;
+}
+
+blockquote {
+	background: #a7e632 url(../images/primary/blue/blockquote_bg.png) no-repeat;
+	border: 1px solid #94cd2d;
+}
+
+.contentheading {
+	color: #78A623;
+}
+
+#header {
+	background: #fff url(../images/primary/blue/header_bg.png) repeat-x;
+}
+
+#logo {
+	background: url(../images/primary/blue/logo.png) no-repeat;
+}
+
+#header_spotlight {
+	background: url(../images/primary/blue/header_spotlight.png) repeat-x;
+}
+
+#nav li.active_menu a:link,
+#nav li.active_menu a:visited,
+#nav li.active_menu a:hover {
+	color: #78A623;
+}
+
+div#menu_horiz ul.submenu li.active_menu a {
+	color: #BAFE39;
+}
+
+div#topbox div.moduletable h3 {
+	color: #BAFE39;
+}
+
+div.loginelement a:hover {
+	color: #BAFE39;
+}
+
+div.loginelement a:link,
+div.loginelement a:visited {
+	color: #fff;
+}
+
+div.loginelement {
+	color: #ccc;
+}
+
+div.loginelement label {
+	color: #ccc;
+}
+
+a:hover span.loginsubmit,
+a:hover span.logoutsubmit {
+	border: 1px solid #BAFE39;
+}
+
+a.readon {
+	border: 1px solid #333333;
+	color: #fff;
+	background: url(../images/button_bg2.png) 0 0 repeat-x;
+}
+
+a.readon:hover {
+	border: 1px solid #BAFE39;
+}
+
+.modifydate {
+	color: #78A623;
+}
+
+.createdate {
+	color: #78A623;
+}
+
+.moduletable-hilite {
+	background: #BAFE39;
+	border: 1px solid #99d32d;
+}
+
+.moduletable-hilite h3 {
+	background:  #99d32d url(../images/primary/blue/bullet4.png) 5px 50% no-repeat;
+}
+
+/* scroller */
+div#scroller-v a:hover {
+	color: #BAFE39;
+}
+
+/* live search */
+#LSShadow {
+	background-color: #1e4b9a;
+	border: 1px solid #194189;
+}
+
+#LSResult {
+	color: #BAFE39;
+}
+
+.LSRow {
+
+	border-top: 1px solid #2258b9;
+	border-bottom: 1px solid #183d80;
+}
+
+#LSResult a:link,
+#LSResult a:visited {
+	color: #ccc;
+}
+
+#LSResult a:hover {
+	color: #BAFE39;
+}
+
+#LSHighlight {
+	background-color: #BAFE39;
+	border-top: 1px solid #d3fd82;
+	border-bottom: 1px solid #99d32d;
+}
+
+#LSHighlight.LSRow a {
+	color: #333;
+}

@@ -1,0 +1,72 @@
+/** IE6 is a hunk of crap!!!  **/
+
+/** holly hacks all over **/
+#mainbody,
+#wrapper,
+#header,
+#componentcolumn,
+div.moduletable,
+div.module,
+div.module-hilite1,
+div.module-hilite2,
+div.module-hilite3,
+div.module-hilite4,
+#fakecolumn1,
+#showcase,
+#bottom {
+	height:1%;
+}
+
+div.moduletable-flush {
+
+}
+
+#mainbody #header {
+	overflow:hidden;
+}
+
+.suckerfish #nav-sub {
+	position: absolute;
+}
+
+.suckerfish #nav-sub ul {
+	z-index: 100;
+}
+
+.suckerfish #nav-sub a {
+	height: 25px;
+	line-height: 25px;
+}
+
+#nav-sub ul ul a:link,
+#nav-sub ul ul a:visited {
+	width: 167px;
+}
+
+.suckerfish #mainbody #header {
+	overflow: visible;
+}
+
+#inset {
+	overflow:hidden;
+}
+
+#vert-menu ul.sidenav li {
+	height: 100%;
+	margin: 0;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	padding: 0;
+}
+
+
+
+/* IE can't 'quite' get this right */
+div#leftcolumn {
+	position: relative;
+
+}
+
+div.moduletable ul{
+	margin-left: 0px;
+}

@@ -1,0 +1,820 @@
+/* for XHTML */
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #999999;
+	background-image: url('../images/bg.gif');
+	background-position: top center;
+	background-repeat: repeat-y;
+	text-align: left; /* your wysiwyg editor will use this in editing mode */
+		
+	font-family: Arial;
+	color: #626262;	
+}
+
+/* container div */
+#main{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: transparent;
+	width: 100%;
+	text-align:center;
+	height: 100%;
+}
+
+#kehys{
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 930px;
+	height: 100%;
+	background-color: transparent;
+}
+
+/* area for different parts */
+#boxes{
+	width: 900px;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #ffffff;
+	height: 100%;
+}
+
+#header{
+	padding-top: 46px;
+	width: 900px;
+	height: 53px;
+}
+
+/* logo div, change width , if you want to change wider logo picture to your template */
+
+#logo{
+	width: 450px;
+	float: left;
+	text-align:left;
+	height: 53px;
+}
+
+/* small navigation at the top right corner of the template */
+
+#othernavi{
+	width: 450px;
+	float: right;
+	text-align:right;
+	margin-top: 11px;
+	height: 13px;
+	line-height: 13px;
+}
+
+/* main navigation top of the page with blue background */
+
+#mainnavi{
+	background-image: url('../images/navibg.gif');
+	background-position: top left;
+	background-repeat: no-repeat;
+	
+	width: 900px;
+	height: 27px;
+	text-align: left;
+	line-height: 27px;
+}
+
+#navi{
+	float: left;
+	width: 716px;
+	text-align: left;
+}
+
+/* pathaway part, breadcrumbs */
+
+#crumbs{
+	height: 27px;
+	line-height:27px;
+	text-align:left;
+	background-color: #ffffff;
+	
+	font-family: Arial;
+	font-size: 11px;
+	color: #7f7f7f;
+	padding-left: 22px;
+}
+
+/* div dearch box module */
+#search{
+	float: right;
+	width: 184px;
+	text-align: left;
+	line-height: 27px;
+	height: 23px;
+	margin-top: 4px;
+}
+
+/* footer div */ 
+#footer{
+	height: 43px;
+	border-top: 1px solid #dfe3e6;
+	clear:both;
+}
+
+/* left footer */
+
+#footerleft{
+	height: 43px;
+	width: 633px;
+	text-align: left;
+	float: left;
+	padding-top: 11px;
+	padding-left: 17px;
+	
+	color: #626262;
+	font-size: 11px;
+}
+
+/* right footer */
+
+#footerright{
+	height: 43px;
+	width: 238px;
+	text-align: right;
+	float: right;
+	padding-top: 11px;
+	padding-right: 12px;
+	
+	color: #626262;
+	font-size: 11px;
+}
+
+/* left column of the template */
+
+#left{
+	float: left;
+	width: 200px;
+	text-align:center;
+	margin-bottom: 100px;
+	background-color: #f2f2f2;
+	padding-top: 13px;
+}
+
+/* place for mainbody and components, different layouts have different widths. Change them. */
+
+#story{
+	float: left;
+	width: 480px;
+	text-align:left;
+	margin: 0px 10px 0px 10px;
+	padding-bottom: 100px;
+}
+
+#story1{
+	float: right;
+	width: 680px;
+	text-align:left;
+	margin: 0px 10px 0px 10px;
+	padding-bottom: 100px;
+}
+
+#story2{
+	float: left;
+	width: 680px;
+	text-align:left;
+	margin: 0px 10px 0px 10px;
+	padding-bottom: 100px;
+}
+
+#story3{
+	float: left;
+	width: 880px;
+	text-align:left;
+	margin: 0px 10px 0px 10px;
+	padding-bottom: 100px;
+}
+
+/* right column of the template */
+
+#right{
+	float: right;
+	width: 200px;
+	text-align: center;
+	margin-bottom: 100px;
+	background-color: #f2f2f2;
+	padding-top: 13px;
+}
+
+/* layout for frontpage text and image */
+
+#frontpage{
+	float: right;
+	text-align: left;
+	width: 683px;
+	padding-left: 17px;
+	
+}
+
+#user1{
+	float: left;
+	width:683px;
+	text-align: left;
+}
+
+#mainbody{
+	float: left;
+	width:683px;
+	text-align: left;
+	padding-top: 20px;
+}
+
+#frontleft{
+	padding-top: 10px;
+	float: left;
+	width: 340px;
+	text-align:left;
+}
+
+#frontright{
+	padding-top: 10px;
+	float: right;
+	width: 340px;
+	text-align: left;
+}
+
+#frontpage div{
+	text-align: left;
+}
+
+/* Joomla styles */
+
+/* top navigation */
+ul#mainlevel-nav{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: right;
+	background: none
+}
+
+ul#mainlevel-nav li{
+	padding-left: 0px;
+	padding-right: 0px;
+	float: left;
+	margin: 0;
+	font-size: 11px;
+	line-height: 13px;
+	white-space: nowrap;
+	border-right: 1px solid #646464;
+	background: none
+}
+
+ul#mainlevel-nav li a{
+	display: block;
+	padding-left: 14px;
+	padding-right: 14px;
+	text-decoration: none;
+	color: #646464;
+	background: transparent;
+}
+
+ul#mainlevel-nav li a:hover{
+	color: #646464;
+	text-decoration: underline;
+}
+
+/* for mainmenu flat list on the blue bg */
+ul#mainlevel-menu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+	background: none
+}
+
+ul#mainlevel-menu li{
+	padding-left: 0px;
+	padding-right: 0px;
+	float: left;
+	margin: 0;
+	font-size: 13px;
+	line-height: 27px;
+	white-space: nowrap;
+	
+	/* use this, if you don't want to use images */
+	/* border-right: 1px solid #4077b2; */
+	background: none;
+	background-image: url('../images/line.gif');
+	background-position: top right;
+	background-repeat: no-repeat;
+	
+	font-weight: bold;
+}
+
+ul#mainlevel-menu li a{
+	display: block;
+	padding-left: 14px;
+	padding-right: 14px;
+	text-decoration: none;
+	color: #ffffff;
+	background: transparent;
+}
+
+ul#mainlevel-menu li a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+/* active page navigation style*/
+ul#mainlevel-menu li #active_menu-menu{
+	background-image: url('../images/activebg.gif');
+	background-position: top left;
+	background-repeat:repeat-x;
+	
+	color: #444444;
+}
+
+/* for includes/footer.php styles */
+#footerleft div{
+	padding-right: 5px;
+	text-align:left;
+}
+
+/* for search box on the top right of the page */
+#mod_search_searchword{
+	overflow: hidden;
+	width: 176px;
+	border: none;
+	background: transparent;
+	margin-bottom: 2px;
+	color: #d5d5d5;
+	font-size: 10px;
+}
+
+/* basic links on the site */
+
+a:link, a:visited {
+	color: #008eee; text-decoration: none;
+	font-weight: normal;
+}
+
+a:hover {
+	color: #008eee;	text-decoration: underline;
+	font-weight: normal;
+}
+
+a.footer:link, a.footer:visited {
+	color: #626262; text-decoration: none;
+	font-weight: normal;
+}
+
+a.footer:hover {
+	color: #626262;	text-decoration: underline;
+}
+
+a.pathway:link, a.pathway:visited{
+	color: #7f7f7f;
+}
+
+a.pathway:hover{
+	color: #7f7f7f;
+	text-decoration: underline;
+}
+
+a.toclink:link, a.toclink:visited{
+	font-size: 11px;
+}
+
+a.toclink:hover{
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+table.contentpaneopen {
+  	width: 100%;
+	padding: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin: 0px;
+	font-size: 11px;
+	line-height: 1.5em;
+}
+
+table.contentpaneopen td {
+	padding-right: 5px;
+	line-height: 1.5em;
+}
+
+table.contentpaneopen td.componentheading {
+	font-family: Arial;
+	color: #4a4a4a;
+	text-align: left;	
+	font-weight: normal;
+	font-size: 18px;
+}
+
+table.contentpaneopen div{
+	
+}
+
+ul{
+	margin: 0;
+	padding: 0px 0px 10px 0px;
+	list-style: none;
+}
+
+li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0px 0px 0px 10px;
+	background-image: url('../images/bullet.gif');
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+ol{
+	margin: 0;
+	padding: 0;
+	list-style-type: decimal;
+}
+
+ol li{
+	background: none;
+}
+
+table.contentpane{
+  	width: 100%;
+	padding: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin: 0px;
+	font-size: 11px;
+}
+
+table.contentpane td {
+	margin: 0px;
+	padding: 0px;
+}
+
+table.contentpane table{
+	
+}
+
+table.contentpane td.componentheading {
+	font-family: Arial;
+	color: #4a4a4a;
+	text-align: left;	
+	font-weight: normal;
+	font-size: 18px;
+}
+
+table.contentpaneopen fieldset {
+	border: 0px;
+	border-bottom: 1px solid #eee;
+}
+
+.button {
+  color: #008eee;
+  font-family: Arial;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  border: 1px solid #cccccc;
+  width: auto;
+  padding: 0px 5px;
+  line-height: 18px !important;
+  line-height: 16px;
+  height: 26px !important;
+  height: 24px;
+  margin: 1px;
+}
+
+.inputbox {
+	padding: 2px;
+	border:solid 1px #cccccc;
+	background-color: #ffffff;
+}
+
+.componentheading{
+	font-family: Arial;
+	color: #4a4a4a;
+	text-align: left;	
+	font-weight: normal;
+	font-size: 18px;
+}
+
+div.componentheading{
+	font-family: Arial;
+	color: #4a4a4a;
+	text-align: left;	
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.contentcolumn{
+	padding-right: 5px;
+}
+
+.contentheading{
+	font-family: Arial;
+	color: #4a4a4a;
+	text-align: left;	
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.contentpagetitle {
+	font-size: 13px;
+	font-weight: bold;
+	color: #cccccc;
+	text-align:left;
+}
+
+table.searchinto {
+	width: 100%;
+}
+
+table.searchintro td {
+	font-weight: normal;
+	font-size: 11px;
+}
+
+table.moduletable {
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 0px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+div.moduletable{
+	margin:auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	
+	padding: 0;
+	margin-bottom: 27px;
+	width: 170px;
+	
+	color: #646464;
+	text-align:left;
+	
+	font-size: 11px;
+}
+
+div.moduletable table{
+	font-family: Arial;
+	font-size: 11px;
+	color: #646464;
+}
+
+table.moduletable th, div.moduletable h3 {
+	background-image: url('../images/moduletablebg_h3.gif');
+	background-position:top left;
+	background-repeat: no-repeat;
+	
+	
+	height: 28px;
+	line-height: 28px;
+	
+	color: #4a4a4a;
+	text-align: left;
+	padding-left: 28px;
+	padding-bottom: 10px;
+	
+	font-weight: bold;
+	font-size: 12px;
+	margin: 0;
+}
+
+table.moduletable td {
+	font-size: 11px;
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+}
+
+table.pollstableborder td {
+  padding: 2px;
+}
+
+.blogsection a{
+	font-size: 11px;
+}
+
+.latestnews a{
+	font-size: 11px;
+}
+
+div.back_button{
+	font-size: 11px;
+}
+
+.pagenav_prev{
+	font-size: 11px;
+}
+
+.pagenav_next{
+	font-size: 11px;
+}
+
+span.pathway{
+	height: 27px;
+	line-height: 27px;
+	color: #7f7f7f;
+}
+
+span.pathway a{
+	height: 27px;
+	line-height: 27px;
+	color: #7f7f7f;
+}
+
+div.syndicate{
+	text-align: left;
+	padding-top: 10px;
+}
+
+div.blog_more{
+	font-size: 11px;
+}
+
+table.blog table td{
+	padding-right: 10px;
+}
+
+.sectiontableheader {
+  font-weight: bold;
+  background: #f0f0f0;
+  padding: 4px;
+}
+
+.sectiontablefooter {
+
+}
+
+.sectiontableentry1 {
+	background-color : #ffffff;
+}
+
+.sectiontableentry2 {
+	background-color : #f2f2f2;
+}
+
+.small {
+	color: #c6c6c6;
+	font-size: 10px;
+}
+
+.createdate {
+	height: 15px;
+	padding-bottom: 10px;
+	color: #c6c6c6;
+	font-size: 10px;
+}
+
+.modifydate {
+	height: 15px;
+	padding-top: 10px;
+	color: #c6c6c6;
+	font-size: 10px;
+}
+
+table.contenttoc {
+  border: 1px solid #c6c6c6;
+  padding: 2px;
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+
+table.contenttoc td {
+  padding: 2px;
+}
+
+table.contenttoc th {
+    color: #666666;
+	text-align: left;
+	padding-top: 2px;
+	padding-left: 4px;
+	height: 21px;
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+a.mainlevel:link, a.mainlevel:visited {
+	display: block;
+	vertical-align: middle;
+	font-size: 11px;
+	font-weight: bold;
+	color: #646464;
+	text-align: left;
+	padding-top: 5px;
+	
+	height: 20px !important;
+	height: 25px;
+	width: 100%;
+	text-decoration: none;
+}
+
+a.mainlevel:hover {
+	text-decoration: underline;
+	color: #646464;
+}
+
+a.mainlevel#active_menu {
+	text-decoration: underline;
+	color:#646464;
+}
+
+a.mainlevel#active_menu:hover {
+	text-decoration: underline;
+	color: #646464;
+}
+
+a.sublevel:link, a.sublevel:visited {
+	padding-left: 2px;
+	vertical-align: middle;
+	font-size: 11px;
+	font-weight: bold;
+	color: #008eee;
+	text-align: left;
+}
+
+a.sublevel:hover {
+	color: #900;
+	text-decoration: none;
+}
+
+a.sublevel#active_menu {
+	color: #333;
+}
+
+.highlight {
+	background-color: Yellow;
+	color: Blue;
+	padding: 0;
+}
+
+.code {
+	background-color: #ddd;
+	border: 1px solid #999999;
+}
+
+form {
+/* removes space below form elements */
+	margin: 0;
+ 	padding: 0;
+}
+
+div.mosimage {
+  border: 1px solid #999999;
+}
+
+.mosimage {
+  border: 1px solid #999999;
+  margin: 5px
+}
+
+.mosimage_caption {
+  margin-top: 2px;
+  background: #efefef;
+  padding: 1px 2px;
+  color: #666;
+  font-size: 10px;
+  border-top: 1px solid #999999;
+}
+
+span.article_seperator {
+	display: block;
+	height: 1.5em;
+}
+
+h1{
+	font-family: Arial;
+	color: #4a4a4a;
+	text-align: left;	
+	font-weight: normal;
+	font-size: 18px;
+}
+
+h2{
+	color: #6eaad1;
+	font-family: Arial;
+	font-size: 17px;
+	font-weight: normal;
+}
+
+h3{
+	color: #6eaad1;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: normal;
+}

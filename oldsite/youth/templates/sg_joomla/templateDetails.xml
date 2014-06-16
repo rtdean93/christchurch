@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template" version="1.0.0">
+	<name>sg_joomla</name>
+	<creationDate>26/06/2006</creationDate>
+	<author>SiteGround</author>
+	<copyright>Copyright ® 2006 www.joomla.siteground.com, Powered by Joomla, Hosted by Siteground</copyright>
+    <authorEmail>design@siteground.com</authorEmail>
+    <authorUrl>http://www.siteground.com</authorUrl>
+	<version>1.0</version>
+	<description>Best Joomla Templates!</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>clock.js</filename>
+		<filename>templates.php</filename>
+	</files>
+	<images>
+	</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>

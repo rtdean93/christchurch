@@ -1,0 +1,132 @@
+body {
+		color: #333;
+}
+
+div.mainbg {
+	background: #f0f0f0;
+	border-left: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+table.mainbg {
+	border-bottom: 1px solid #e2e2e2;
+}
+
+td.main {
+	background: #f0f0f0;
+}
+
+td.middle {
+	border-left: 1px solid #d8d8d8;
+	border-right: 1px solid #e2e2e2;
+	background: #fff;
+}
+
+div.hilight {
+	border-bottom: 1px solid #e2e2e2;
+}
+
+div.mainbody {
+	background: #f8f8f8;
+	border-top: 1px solid #fff;
+}
+
+div.surround {
+	border-top: 1px solid #e2e2e2;
+}
+
+div.block.bottom {
+	border-top: 1px solid #fff;
+}
+
+div.block {
+	border-top: 1px solid #fff;
+}
+
+div.block.dark {
+	background: #333;
+}
+
+div.block.normal {
+	border-bottom: 1px solid #e2e2e2;
+}
+
+div.block .moduletable {
+	border: 1px solid #e2e2e2;	
+}
+
+div.block .moduletable h3 {
+	background:  #e2e2e2 url(../images/body/grey/bullet1.png) 5px 50% no-repeat;	
+}
+
+div.dark .moduletable,
+div.dark .moduletable-flush {
+	border: 1px solid #434343;	
+	color: #ccc;
+}
+
+div.dark .moduletable h3,
+div.dark .moduletable-flush h3 {
+	background:  #434343 url(../images/bullet1.png) 5px 50% no-repeat;
+	color: #ccc;
+}
+
+div.light .moduletable,
+div.light .moduletable-flush {
+	border: 1px solid #f0f0f0;	
+}
+
+div.light .moduletable h3,
+div.light .moduletable-flush h3 {
+	background:  #f0f0f0 url(../images/bullet3.png) 5px 50% no-repeat;
+}
+
+ul.sidenav li {
+	border-bottom: 1px solid #444;
+}
+
+ul.sidenav li a {
+	color: #ddd;
+}
+
+ul.sidenav a:hover {
+ color: #fff;
+}
+
+ul.sidenav li.active_menu a:link, 
+ul.sidenav li.active_menu a:visited  {
+	color: #f0b10b;
+}
+
+td.sectiontableheader {
+  background: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+tr.sectiontableentry1 td, 
+tr.sectiontableentry2 td {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+td.sectiontableentry1, 
+td.sectiontableentry2{
+  border-bottom: 1px solid #f0f0f0;
+}
+
+div#footer {
+	border: 1px solid #f0f0f0;
+	background: #ccc;
+}
+
+#rocket {
+	background: url(../images/body/grey/rocket.png);
+}
+
+.css_button {
+	background: url(../images/body/grey/w3c_css.png);
+}
+
+.xhtml_button {
+	background: url(../images/body/grey/w3c_xhtml.png);
+}

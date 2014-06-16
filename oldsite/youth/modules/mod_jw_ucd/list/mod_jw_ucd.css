@@ -1,0 +1,36 @@
+/*
+// JW "Ultimate Content Display" Module for Joomla! 1.0.x - Version 1.0
+// License: http://www.gnu.org/copyleft/gpl.html
+// Authors: Fotis Evangelou - George Chouliaras - Luca Scarpa
+// Copyright (c) 2006 - 2007 JoomlaWorks.gr - http://www.joomlaworks.gr
+// Project page at http://www.joomlaworks.gr - Demos at http://demo.joomlaworks.gr
+// Support forum at http://forum.joomlaworks.gr
+// ***Last update: June 7th, 2007***
+*/
+
+div.udc {}
+
+/* List styling */
+ul.udc_list {margin:8px;padding:8px;list-style:square;}
+ul.udc_list li {margin:2px;padding:0px;border-bottom:1px dotted #ccc;background:none;float:none;width:100%;}
+
+/* Title */
+ul.udc_list li div.udc_title {float:none;background:none;}
+
+/* Date */
+ul.udc_list li span.udc_date {color:#909090;margin-right:4px;font-size:11px;}
+
+/* Section/Category */
+ul.udc_list li span.udc_sec_cat {font-size:11px;}
+
+/* Introtext styling */
+ul.udc_list li p.introtext {padding:0px;margin:0px;}
+
+/* "Readmore" button */
+ul.udc_list li a.udc_readon {display:block;float:none;font-size:11px;padding:0px;margin:4px 0px 8px 0px;text-align:right;}
+ul.udc_list li a.udc_readon:hover {display:block;float:none;font-size:11px;padding:0px;margin:4px 0px 8px 0px;text-align:right;}
+
+/* Style cleanup */
+ul.udc_list li p.introtext p {padding:0px;margin:0px;}
+
+/* --- END --- */

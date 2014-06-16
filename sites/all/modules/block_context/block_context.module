@@ -1,0 +1,358 @@
+<?php
+include 'block_context_ui.inc';
+
+/************************************
+ * BLOCK CONTEXT
+ *
+ * Manage blocks by their context
+ * by Maedi Prichard 2011
+ *
+ * http://drupal.org/project/block_context
+ *
+ ************************************/
+ 
+// THEME FUNCTIONS
+ 
+/**
+ * Implements hook_theme()
+ *
+ * Declare this theme function and template file so that the preprocess function below may use it
+ */
+function block_context_theme() {
+  return array(
+    'block_context_admin_display_form' => array(
+      'template' => 'block-context-admin-display-form',
+      'render element' => 'form',
+    ),
+  );
+}
+
+/**
+ * Pre-Processes variables for block-admin-display-form.tpl.php
+ * Then Display in template block-context-admin-display-form.tpl.php
+ *
+ * $vars : array containing data needed for the present page and more
+ */
+function block_context_preprocess_block_admin_display_form(&$vars) {
+
+  // Store Paths
+  $sections = array(); 
+  add_menu_to_sections($sections, menu_main_menu()); 
+       
+  // Crunch Data
+  foreach($vars['block_listing'] as $region_key => $region) {
+    
+    // per block
+    foreach($vars['block_listing'][$region_key] as $block_key => $block) {
+          
+      // load block
+      $id = explode('_', $block_key);
+	  $block = block_load($id[0], $id[1]);
+	  
+	  // if block has paths, and the blocks paths are not hidden paths
+	  if(isset($block->pages) && $block->visibility = 1) {
+	  
+	    // load block paths
+	    $paths = textarea_to_paths($block->pages);
+	    
+	    // add paths to sections array	  
+        foreach($paths as $key => $path) {
+        
+          // will not add the same path more than once
+          add_path_to_sections($sections, $path);
+        }
+      } 
+    }
+  }
+
+  // Alter Block Listing
+  foreach($vars['block_listing'] as $region_key => $region) {
+    
+    // per block
+    foreach($vars['block_listing'][$region_key] as $block_key => $block) {  
+    
+      // Load Block and Menu Paths
+      // $block_key is in form 'module_delta'      
+      $id = explode('_', $block_key);
+	  $block = block_load($id[0], $id[1]);
+	  	  
+	  if(isset($block->pages)) {
+	  
+	    // load block paths	  
+	    $block_paths = array();
+	    $block_paths = preg_split("/[\s,]+/", $block->pages);	    
+	    	    
+	    // filter blocks by sections
+	    if(arg(3) != '') {
+	    
+	      if(!arg_matches_paths($block_paths)) {
+
+	        $vars['block_listing'][$region_key][$block_key]->visibility = -1;
+	
+	      } else {
+	      	 $vars['block_listing'][$region_key][$block_key]->visibility = 0;
+	      }
+	    } else {
+	      $vars['block_listing'][$region_key][$block_key]->visibility = 1;
+	    }
+	  } else {
+	    $vars['block_listing'][$region_key][$block_key]->visibility = -1;
+	  }
+	  
+      // add a dropdown menu per block
+      $vars['block_listing'][$region_key][$block_key]->context_select = ui_paths_dropdown($sections, $block_key, $block_paths);
+    }
+  }
+
+  // Hook into block admin page variables (before reaches theme layer)
+  $vars['theme_hook_suggestions'][] = 'block_context_admin_display_form';
+  
+  // Add Bock Context Paths menu to block admin template theme
+  $vars['block_context']['ui_paths_menu'] = ui_paths_menu($sections);
+}
+
+function block_context_admin_display_form($form, &$form_state) {
+ // dpm('form');
+ // dpm($form);
+ // dpm('form_state');
+ // dpm($form_state);
+}
+
+// PROCESS FUNCTIONS
+
+/**
+ * Implements hook_form_alter()
+ *
+ * Add our re-assign block feature on submit
+ */
+function block_context_form_alter(&$form, &$form_state, $form_id)
+{
+  if($form_id == 'block_admin_display_form') {
+      
+    // admidd function to be run when block admin page is submitted
+    $form['#submit'][] = 'block_context_admin_display_form_submit';
+      
+    // move function callback to top of array so that it is run first
+    $form['#submit'] = array_reverse($form['#submit']);
+  }
+}
+
+/**
+ * Save and Replace paths
+ *
+ * existing and new paths are saved in $_POST
+ */
+function block_context_admin_display_form_submit($form, &$form_state) {
+
+  // for each submitted block
+  foreach($_POST['blocks'] as $block_key => $item) {
+
+    // store blocks last known path
+    static $block_redirect_path;
+        
+    // whether user has selected new path
+    static $changed = FALSE;
+            
+    // load block
+    $id = explode('_', $block_key);
+    $module = $id[0];
+    $delta = $id[1];
+    $block = block_load($module, $delta);
+    
+    // load user submitted path
+    if(isset($item['path'])) {
+             
+      // get all existing paths
+	  $paths = textarea_to_paths($block->pages);
+	  
+	  // CONVERT ACTIONS IF BLOCK PATH HAS BEEN CHANGED
+
+	  // compare new path with old path (end of array / top of stack)
+	  if( $item['path'] != end($paths) ) {
+	  
+	    // stop All from '' triggering change
+	    if($item['path'] != 'All' && $paths != '') {
+	  
+	      $changed = TRUE;
+          $block_redirect_path = $item['path'];
+          
+          // replace previous block path with new (last element is only ever edited)
+          array_pop($paths);
+          $paths[] = $item['path'];
+        
+          // format for Drupal blocks 'Pages' textarea
+          $pages = paths_to_textarea($paths);
+        
+          // replace original 'Pages' entry with updated paths
+          block_context_block_update($module, $delta, $pages);
+          
+          // user messages
+          if($block->title != '') {
+            drupal_set_message($block->title . ' block moved to "' . htmlspecialchars($item['path']) . '".');
+          }
+          else {
+            drupal_set_message($block_key . ' block moved to "' . htmlspecialchars($item['path']) . '".');
+          }
+        }
+	  }
+    }
+  }
+
+  // redirect if user has selected a new path for any of the blocks
+  if($changed) {
+    block_redirect_path_context($block_redirect_path);
+  }
+}
+
+/**
+ * Update A Block
+ */
+function block_context_block_update($module, $delta, $pages) {
+
+  db_update('block')
+  ->fields(array(
+    'pages' => $pages,
+    'visibility' => 1,
+  ))
+  ->condition('module', $module, '=')
+  ->condition('delta', $delta, '=')
+  ->execute();
+}
+
+/**
+ * Redirects the user to the desired page
+ */
+function block_redirect_path_context($path) {
+
+  if($path == 'All') {
+    drupal_goto('admin/structure/block/');
+  }
+  else {
+    drupal_goto('admin/structure/block/path/' . $path);
+  }
+}
+
+// STORAGE FUNCTIONS
+
+/**
+ * Textarea to Paths
+ * convert Drupal's textarea-paths format to an array of paths
+ *
+ * $string  : a string representing the block 'pages' textarea
+ * returns : a string in Drupal's text-paths format
+ */
+function textarea_to_paths($string) {
+		
+  return preg_split("/[\s,]+/", $string);
+}
+
+/**
+ * Paths to Textarea
+ *
+ * $paths  : an array of paths
+ * returns : a string in Drupal's textarea-paths format
+ */
+function paths_to_textarea($paths) {
+
+  // stop form 'All' option from making changes
+  if($paths[0] == 'All') {
+    return '';
+  }
+  elseif(count($paths) == 1 ) {
+    return $paths[0];
+  }
+  else {
+    // convert array to Drupal format string
+    return implode("\n", $paths); 
+  }
+}
+
+/**
+ * Add Path to Sections
+ * adds a path(key) and title(value) combo uniquely to the sections array
+ */
+function add_path_to_sections(&$sections, $path, $title = NULL) {
+
+  // if path supplied
+  if($path != '') {
+  
+    // make the title the same as the path if no title supplied
+    if($title == NULL) {
+      $title = $path;
+    }
+
+    // handle <front> paths and lowercase all other paths
+    if($path == '<front>') {
+        
+      $path = htmlspecialchars($path);
+      $title = 'Front';
+    }
+    else {
+      $path = strtolower($path);
+    }
+    
+    // will not add the same path to the array more than once
+    if(!isset($sections[$path])) {
+      $sections[$path] = $title;
+    }
+  }
+}
+
+// Add Drupal menus to $sections array
+function add_menu_to_sections(&$sections, $menu) {
+	
+  foreach($menu as $key => $value) {
+  
+    $title = $menu[$key]['title'];
+    $path = $menu[$key]['href']; 
+    
+    // convert 'node/123' paths to aliases
+    $path_type = explode('/', $path);
+    
+    if($path_type[0] == 'node') {
+    
+      $path = drupal_lookup_path('alias', $path);    
+    }
+    add_path_to_sections($sections, $path, $title);
+  }
+}
+
+// PATH MATCHING LOGIC
+
+function arg_matches_paths($paths) {
+
+  foreach($paths as $key => $value) {
+  
+    $path = strtolower($value);
+    
+    if($path == arg(4) || $path == node_path()) {
+    
+      return true;
+    }
+  }
+}
+
+function match_path($path, $path2) {
+
+  $path = strtolower($path);
+  $path2 = strtolower($path2);
+  
+  if(!isset($sections[$path])) {
+  
+    $sections[$path] = $path;
+  }
+}
+
+// CUSTOM ACCESSORS
+
+// admin/structure/block/path/<alias>
+function alias_path() {
+
+  return arg(4);
+}
+// admin/structure/block/path/<node/123>
+function node_path() {
+	
+  // cater for 'node/123' paths
+  return arg(4) . '/' . arg(5);
+}

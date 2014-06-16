@@ -1,0 +1,19 @@
+/** IE7 is still a hunk of crap!!! but it's a bit better than IE6 **/
+
+div.moduletable,
+div.module,
+div.module-hilite1,
+div.module-hilite2,
+div.module-hilite3,
+div.module-hilite4,
+#showcase {
+	height:1%;
+}
+
+#nav-main li:hover  {
+position: relative;
+}
+
+div.moduletable ul{
+	margin-left: 0px;
+}

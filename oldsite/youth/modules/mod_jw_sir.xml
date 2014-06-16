@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="module">
+	<name>Simple Image Rotator</name>
+	<author>Fotis Evangelou - George Chouliaras (JoomlaWorks)</author>
+	<creationDate>18/04/2007</creationDate>	
+	<copyright>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</copyright>
+	<authorEmail>joomlaworks@gmail.com</authorEmail>
+	<authorUrl>http://www.joomlaworks.gr</authorUrl>
+	<version>1.1</version>
+	<description>
+		<![CDATA[
+<style type="text/css" media="all">
+<!--
+.doc_container {padding:0px 0px 4px 0px;}
+h1 {clear:both;margin:0px 0px 12px 0px;padding:0px 0px 1px 0px;color:#C64934;font-size:17px;border-bottom:1px dotted #505050;}
+.title {margin:4px 0px;font-size:12px;font-weight:bold;}
+.tabbertab {background:#fff;}
+.red {color:#C64934;}
+-->
+</style>
+<script type="text/javascript">document.write('<style type="text/css">.tabber{display:none;}<\/style>');</script>
+<script type="text/javascript" src="../modules/mod_jw_sir/tabs.js"></script>
+<style type="text/css" media="all"> 
+	@import "../modules/mod_jw_sir/tabs.css"; 
+</style>
+<div class="doc_container">
+  <h1><a target="_blank" title="Visit JoomlaWorks!" href="http://www.joomlaworks.gr">JoomlaWorks "Simple Image Rotator" Module v1.1</a></h1>
+  <div class="tabber" id="tab">
+    <div class="tabbertab" title="Usage Instuctions">
+      <h2><a name="advtab">Usage Instuctions</a></h2>
+      <h1>Setting up the "Simple Image Rotator" Module</h1>
+      <a title="Visit the official website!" href="http://www.joomlaworks.gr"> <img style="float:right;background:#fff;border:1px solid #ccc;padding:2px;margin:0px 0px 2px 8px;" src="../modules/mod_jw_sir/logo.png" border="0" alt="Logo" /></a> The "Simple Image Rotator" module offers a simple (yet eye-candy) image rotating mechanism (or slideshow in plain English) for the Joomla! masses! It is an alternative to Flash image rotation scripts, which are sometimes difficult to implement and heavy regarding filesize (not to mention the EOLAS -click to activate- issues in Internet Explorer!). The module borrows the nice effects from such scripts, but uses javascript to auto-"magically" rotate images from any given folder!<br />
+      <br />
+      It's actually a simple to use module, which <b>adds to the overall look</b> of your Joomla! website.<br />
+      <br />
+      See the module in action in our exclusive <a target="_blank" href="http://demo.joomlaworks.gr/">DEMO SITE</a>.<br />
+      <br />
+      So how do we setup the module? First of all, create a folder anywhere in your Joomla site. Prefer to do this under <b class="red">images/stories</b>, so that you want stumble upon file permission issues! Create for example a folder named <b class="red">headers</b> inside <b class="red">images/stories</b>. Now add the full path to this newly created folder in the parameters below. The path would be <b class="red">images/stories/headers</b>.<br />
+      <br />
+      Adjust the speed and timeout of the rotation as well as the target width and height of your images and that's it! Publish the module in an existing position and enjoy! You can also choose to display images in sequence or randomly, add a link to some URL, e.g. a link to your products page (useful if you're running an e-shop) and even choose between a light or dark background scheme to load alternative "loading" icons and therefore match your template better. <b>Just remember you can only use one instance of the module per page. This means you cannot publish the module twice on the same page.</b><br />
+      <br />
+      It doesn't get any simpler!<br />
+      <br />
+      <span style="font-weight:bold;text-decoration:underline;">If you still have questions or want to provide feedback on the module, please visit our official <a target="_blank" title="Visit JoomlaWorks Support Forum!" href="http://forum.joomlaworks.gr">Support Forum</a></span>. <br />
+      <br />
+      <h1>Using the "Simple Image Rotator" with Joomla's built in Banner Component</h1>
+      We've added a nice little feature for everyone to switch the module in "banner" mode. That way you can use the module to rotate all published banners, defined inside Joomla's Banner Component. See the last 2 settings below for this option.<br />
+      <br />
+    </div>
+    <div class="tabbertab" title="Changelog">
+      <h2><a name="advtab">Changelog</a></h2>
+      <h1>CHANGELOG</h1>
+      <div class="title">Version 1.1 Changelog (April 18th, 2007)</div>
+      <ul>
+        <li>Fixed CSS code to address a layout issue occuring, when links to images are disabled.</li>
+      </ul>
+      <br />
+      <div class="title">Version 1.0 Changelog (March 23rd, 2007)</div>
+      <ul>
+        <li>v1.0 released.</li>
+      </ul>
+    </div>
+    <div class="tabbertab" title="Credits">
+      <h2><a name="advtab">Credits</a></h2>
+      <h1>CREDITS</h1>
+      The development of the "Simple Image Rotator" Module is based on <a target="_blank" title="Image Crossfade Redux" href="http://slayeroffice.com/code/imageCrossFade/xfade2.html">Image Crossfade Redux</a> by <a target="_blank" title="Visit slayeroffice.com!" href="http://slayeroffice.com/">slayeroffice.com</a>.<br />
+      <br />
+    </div>
+    <div class="tabbertab" title="About">
+      <h2><a name="advtab">About</a></h2>
+      <h1>FOR INFO, UPDATES, REQUESTS &amp; CONTACT</h1>
+      Check out <a target="_blank" title="Visit JoomlaWorks!" href="http://www.joomlaworks.gr">JoomlaWorks.gr</a>, the official website of this Joomla extension and home to other popular ones, like the <b>Frontpage Slideshow Component/Module combo</b>, the <b>AllVideos Plugin</b>, the <b>Ultimate AJAX Newsflash Module</b>, the <b>Simple Image Gallery Plugin</b> or the <b>Tabs &amp; Slides In Content Items Plugin</b>.<br />
+      <br />
+      <a target="_blank" title="Visit JoomlaWorks!" href="http://www.joomlaworks.gr">JoomlaWorks.gr</a> is <u style="color:#C64934;font-weight:bold;">the</u> place to read interesting articles or find useful tips and tutorials for the Joomla! CMS and web design/development in general. At <a target="_blank" title="Visit JoomlaWorks!" href="http://www.joomlaworks.gr">JoomlaWorks.gr</a> you can always download the latest software updates as well as post comments, requests or even discuss the extension.<br />
+      <br />
+      Also, make sure you visit our brand new <a target="_blank" title="Visit JoomlaWorks Support Forum!" href="http://forum.joomlaworks.gr">Support Forum</a> for all JoomlaWorks extensions at <a target="_blank" title="Visit JoomlaWorks Support Forum!" href="http://forum.joomlaworks.gr">forum.joomlaworks.gr</a>. <br />
+      <br />
+      <div class="star">Please show your support by rating or commenting on this extension at the official Joomla! Extensions website <a target="_blank" href="http://extensions.joomla.org/component/option,com_mtree/task,viewowner/user_id,1596/Itemid,35/">HERE</a>.</div>
+      <b>Thank you for your support!</b><br />
+      <br />
+      <strong style="color:#C64934;">This extension is released under the GNU/GPL license.</strong><br />
+      <br />
+      <!-- change here -->
+      <i>(Last update: April 18th, 2007 - version 1.1)</i><br />
+      <br />
+    </div>
+  </div>
+</div>
+		]]>
+	</description>
+	<files>
+		<filename module="mod_jw_sir">mod_jw_sir.php</filename>
+		<filename module="mod_jw_sir">mod_jw_sir/mod_jw_sir.js</filename>
+		<filename module="mod_jw_sir">mod_jw_sir/loading.gif</filename>
+		<filename module="mod_jw_sir">mod_jw_sir/loading_black.gif</filename>
+		<filename module="mod_jw_sir">mod_jw_sir/logo.png</filename>
+		<filename mambot="mod_jw_sir">mod_jw_sir/tabs.js</filename>
+		<filename mambot="mod_jw_sir">mod_jw_sir/tabs.css</filename>
+		<filename mambot="mod_jw_sir">mod_jw_sir/tab_bg.png</filename>		
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable). This allows individual module styling." />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="imagefolder" type="text" default="images/stories/headers" label="Image Folder path" description="Set here the path to the folder containing the images to be displayed. The module will scan this folder and display images automatically!" />
+		<param name="display" type="list" default="random" label="Display order" description="Should the images display in sequence or randomly?">
+			<option value="random">Random</option>
+			<option value="sequence">Sequence</option>
+		</param>		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="transition" type="text" default="40" label="Rotation speed" description="Set here the rotation speed (in 1/100th seconds) between images. 100 means 1 second." />
+		<param name="delay" type="text" default="5000" label="Rotation timeout" description="Set here the rotation timeout (in miliseconds) for every image. 1000 means 1 second." />
+		<param name="width" type="text" default="600" label="Image (header) width" description="Set here the target width of all images in pixels." />
+		<param name="height" type="text" default="200" label="Image (header) height" description="Set here the target width of all images in pixels." />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="forceresize" type="list" default="0" label="Force image resize (if wider)" description="Should we force all images exceeding the given width above to resize, using CSS?.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>		
+		<param name="enablelink" type="list" default="1" label="Enable link to images?" description="Should the images have a universal link pointing to a single URL? If you choose no, then the next parameter is disabled, obviously!">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="link" type="text" default="http://www.joomlaworks.gr" label="Link to URL" description="Insert here a link to a URL that users will be redirected to when they click on the 'Simple Image Rotator'. Enter '#' (without the quotes) for same page." />
+		<param name="target" type="list" default="0" label="Where should the above link open?" description="Choose whether the 'master' link will open in a new or in the same window.">
+			<option value="0">Same window</option>
+			<option value="1">New window</option>
+		</param>
+		<param name="linktitle" type="text" default="JoomlaWorks Simple Image Rotator" label="Link title" description="Insert here the link title which will be shown to the visitor when they hover their mouse ver the images. Do not use single or double quotes or the HTML will break." />
+		<param name="darkbg" type="list" default="0" label="Display 'loading icon' for..." description="Display different loading icon per template color scheme, white or dark.">
+			<option value="0">Light colored template</option>
+			<option value="1">Dark colored template</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="useforbanners" type="list" default="0" label="Should the Rotator be used to display banners from the Banner Component?" description="This option will retrieve all published banners and display them.">
+			<option value="0">No</option>
+			<option value="1">Yes (bypasses all options above)</option>
+		</param>		
+		<param name="bannerfolder" type="text" default="images/banners/" label="Banner folder" description="Leave as is if you haven't changed the default banners location." />		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+	</params>
+</mosinstall>

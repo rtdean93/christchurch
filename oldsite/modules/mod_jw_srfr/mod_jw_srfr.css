@@ -1,0 +1,28 @@
+/*
+// "Simple RSS Feed Reader" Module for Joomla! 1.0.x - Version 1.1
+// License: http://www.gnu.org/copyleft/gpl.html
+// Authors: Fotis Evangelou - George Chouliaras
+// Copyright (c) 2006 - 2007 JoomlaWorks.gr - http://www.joomlaworks.gr
+// Project page at http://www.joomlaworks.gr - Demos at http://demo.joomlaworks.gr
+// ***Last update: January 31st, 2007***
+*/
+
+div#jw_srfr_container {}
+/* generic list styling */
+ul.jw_srfr {margin:4px 12px;padding:0px;list-style:square;}
+ul.jw_srfr li {margin:2px;padding:0px;border-bottom:1px dotted #ccc;}
+/* generic link styling (fill as you see fit) */
+ul.jw_srfr li a {}
+ul.jw_srfr li a:hover {}
+/* feed item title */
+a.srfr_feeditemtitle {display:block;}
+a.srfr_feeditemtitle:hover {display:block;}
+/* feed item timestamp */
+span.srfr_feeditemtitle {color:#909090;margin-right:4px;}
+/* feed name */
+a.srfr_feedname {}
+a.srfr_feedname:hover {}
+/* feed item description */
+p.srfr_feeditemdesc {margin:0px;padding:2px 0px;}
+
+/* --- END --- */

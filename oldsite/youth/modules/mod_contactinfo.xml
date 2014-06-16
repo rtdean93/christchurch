@@ -1,0 +1,81 @@
+<?xml version="2.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="2.0">
+	<name>Contact Information Module</name>
+	<author>Edward Cupler</author>
+	<creationDate>March 2007</creationDate>
+	<copyright>(C) 2007 Digital Greys. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>ecupler@digitalgreys.com</authorEmail>
+	<authorUrl>www.digitalgreys.com</authorUrl>
+	<version>1.0.0</version>
+	<description><![CDATA[<div style="font-size:14px ; font-weight:bold ;">Contact Information Module</div><a href="http://www.digitalgreys.com" target="_new"><img src="../modules/mod_contactinfo/mod_contactinfo.gif" align="right" border="0"/></a><p>Usage : Simply enter the id of the contacts you created using the Joomla &quot;Contacts&quot; component, separated by a comma. If you need to use two telephone numbers, just enter both into the &quot;Telephone&quot; field in the Joomla &quot;Contacts&quot; component separated by a single space, be sure not to use any spaces in the numbers themselves.</p>
+	<p>Add the following classes to your style sheet to customize the contact text. &quot;.info_name {}&quot;, &quot;.info_position {}&quot;, &quot;.info_address {}&quot;, &quot;.info_suburb {}&quot;, &quot;.info_state {}&quot;, &quot;.info_postcode {}&quot;, &quot;info_country {}&quot;, &quot;.info_telephone {}&quot;, &quot;.info_fax {}&quot;, &quot;.info_email {}&quot;, &quot;.info_misc {}&quot;, &quot;.contact_sep {}&quot;</p>
+	<p>Please report any bugs to <a href="mailto:ecupler@digitalgreys.com">Digital Greys Support</a>, thanks.</p>
+	<p>For more information about the Contact Information Module, visit <a href="http://www.digitalgreys.com" target="_new">Digital Greys</a> and be sure to visit our sponsors ;)</p>]]></description>
+	<files>
+		<filename module="mod_contactinfo">mod_contactinfo.php</filename>
+		<filename>mod_contactinfo/mod_contactinfo.gif</filename>
+	</files>
+	<params>
+		<param name="layout_style" type="radio" default="SeperateLines" label="Layout Style" description="The layout style">
+			<option value="SeperateLines">Seperate Lines</option>
+			<option value="OneLine">One Line</option>
+		</param>
+		<param name="separate_code" type="list" default="vert_indent" label="Separator Code" description="The code used to separate each contact">
+			<option value="div">Div</option>
+			<option value="hr">Horizontal Rule</option>
+			<option value="br">Break Tag</option>
+			<option value="none">None</option>
+		</param>
+		<param name="link_to" type="radio" default="1" label="Link Name to Contact Page" description="Select yes to make the Contact Name link to the contacts page.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="contact_cid" type="text" default="" label="Contact ID (use only one ID)" description="Reference the contact ID you want to display from the Joomla Contacts component. IMPORTANT! USE ONLY ONE ID." />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="show_name" type="radio" default="0" label="Display Name" description="Display contact name.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="con_position" type="radio" default="0" label="Display Contact Position" description="Display Contact Position.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_address" type="radio" default="0" label="Display Address" description="Display contact address.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_suburb" type="radio" default="0" label="Display Suburb" description="Display contact suburb.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_state" type="radio" default="0" label="Display State" description="Display contact state.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_postcode" type="radio" default="0" label="Display Postcode" description="Display contact postcode.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_country" type="radio" default="0" label="Display Country" description="Display contact country.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_telephone" type="radio" default="0" label="Display Telephone" description="Display contact telephone.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_fax" type="radio" default="0" label="Display Fax" description="Display contact fax.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_email_to" type="radio" default="0" label="Display Email" description="Display contact Email.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_misc" type="radio" default="0" label="Display Miscellaneous Info" description="Display contact miscellaneous info.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</mosinstall>

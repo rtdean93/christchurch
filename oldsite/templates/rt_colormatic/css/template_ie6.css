@@ -1,0 +1,25 @@
+/** IE6 is a hunk of crap!!! don't ask me why this is needed **/
+
+/* PNG FIX FOR IMAGES ONLY */
+a#fxTrigger {
+	position: relative;
+	z-index: 300;
+	cursor: pointer;
+}
+
+#fxShadow {
+	background: none;
+}
+
+#horiz-menu li li a.daddy:link,
+#horiz-menu li li a.daddy:visited {
+	background: none;
+}
+
+#horiz-menu ul ul a:link,
+#horiz-menu ul ul a:visited {
+	width: 167px;
+}
+
+
+

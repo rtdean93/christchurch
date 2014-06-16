@@ -1,0 +1,14 @@
+/** IE6 is a hunk of crap!!! don't ask me why this is needed **/
+
+.moduletable h3,
+.moduletable-hilite h3 {
+	padding: 0;
+	margin-top: -5px;
+	margin-left: -6px;
+	margin-right: -6px;
+	margin-bottom: 10px;
+	padding: 5px 5px 5px 23px;
+	line-height: 100%;
+
+}
+

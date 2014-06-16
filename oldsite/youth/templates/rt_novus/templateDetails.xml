@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="1.0" type="template">
+    <name>rt_novus</name>
+    <version>1.0.1</version>
+    <creationDate>12/01/07</creationDate>
+    <author>rhuk</author>
+    <authorEmail>support@rockettheme.com</authorEmail>
+    <authorUrl>http://www.rockettheme.com</authorUrl>
+    <copyright>Copyright 2007-2008 - RocketTheme.com</copyright>
+    <license>GNU/GPL</license>
+    <description>
+			<![CDATA[
+			<h1>RocketTheme Novus</h1>
+
+			<img src="../templates/rt_novus/template_thumbnail.png" align="left" hspace="10" />Novus is a clean and professional GPL template, featuring a fast loading design that is perfect for many applications.
+
+			<h3>Changelog</h3>
+			
+			<b>1.0.1</b><br />
+			<ul>
+			<li>Low impact XSS vulnerability patch</li>
+			</ul>
+			
+			<b>1.0.0</b><br />
+			<ul>
+			<li>Initial Release</li>
+			</ul>
+
+			]]>  	
+    </description>
+		<files>
+			<filename>css/blank.gif</filename>
+			<filename>css/editor_content.css</filename>
+			<filename>css/iepngfix.htc</filename>
+			<filename>css/index.html</filename>
+			<filename>css/template_css.css</filename>
+			<filename>css/template_ie6.css</filename>
+			<filename>images/active-menu-l.png</filename>
+			<filename>images/active-menu-r.png</filename>
+			<filename>images/arrow.png</filename>
+			<filename>images/blank.gif</filename>
+			<filename>images/bottom-bg.png</filename>
+			<filename>images/bottommod-bg.png</filename>
+			<filename>images/bullet-2.png</filename>
+			<filename>images/bullet.png</filename>
+			<filename>images/emailButton.png</filename>
+			<filename>images/hilite1-bg.png</filename>
+			<filename>images/indent1.png</filename>
+			<filename>images/indent2.png</filename>
+			<filename>images/indent3.png</filename>
+			<filename>images/indent4.png</filename>
+			<filename>images/index.html</filename>
+			<filename>images/inset-banner.jpg</filename>
+			<filename>images/inset-readon.png</filename>
+			<filename>images/logo.png</filename>
+			<filename>images/menu-bg.png</filename>
+			<filename>images/menu-divider.png</filename>
+			<filename>images/module-corner.png</filename>
+			<filename>images/module-h3.png</filename>
+			<filename>images/page-bg.png</filename>
+			<filename>images/pdf_button.png</filename>
+			<filename>images/printButton.png</filename>
+			<filename>images/quote.png</filename>
+			<filename>images/rating_star.png</filename>
+			<filename>images/rating_star_blank.png</filename>
+			<filename>images/readon.png</filename>
+			<filename>images/rocket.png</filename>
+			<filename>images/status-alert.png</filename>
+			<filename>images/status-download.png</filename>
+			<filename>images/status-info.png</filename>
+			<filename>images/status-note.png</filename>
+			<filename>index.php</filename>
+			<filename>js/ie_splitmenu.js</filename>
+			<filename>js/index.html</filename>
+			<filename>rt_splitmenu.php</filename>
+			<filename>rt_styleloader.php</filename>
+			<filename>rt_styleswitcher.php</filename>
+			<filename>rt_utils.php</filename>
+			<filename>template_thumbnail.png</filename>
+			<filename>templateDetails.xml</filename>
+		</files>
+    <params/>
+</mosinstall>

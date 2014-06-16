@@ -1,0 +1,106 @@
+/* @override http://tiger:8888/workspace/joomla/feb07/templates/rt_vortex/css/suckerfish.css */
+
+/*****************************
+ ****       suckerfish    ****
+ *****************************/
+
+#horiz-menu a {
+	display: block;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 15px;
+	text-decoration: none;
+	cursor: pointer;
+	background: none;
+}
+
+
+#horiz-menu li.active li a:link,
+#horiz-menu li.active li a:visited {
+	background: none;
+}
+
+#horiz-menu li li a:link,
+#horiz-menu li li a:visited{
+	background: none;
+	font-weight: bold;
+	padding: 0;
+	text-indent: 10px;
+}
+
+#horiz-menu li li a:link,
+#horiz-menu li li a:visited {
+	border: 0;
+	font-size: 100%;
+}
+
+#horiz-menu li li {
+	background: none;
+	padding: 0;
+  width: 170px;
+}
+
+#horiz-menu ul ul a:link,
+#horiz-menu ul ul a:visited {
+	display: block;
+	text-decoration: none;
+	width: 172px;
+	text-transform: none;
+	background: none;
+}
+
+.suckerfish #horiz-menu ul ul {
+	border-left: 0px;
+}
+
+#horiz-menu ul li {
+	position: relative;
+}
+
+#horiz-menu li ul {
+	top: 30px;
+	position: absolute;
+	z-index: 10;
+	left: -999em;
+	height: auto;
+	width: 170px;
+	font-weight: normal;
+	border-width: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/* margin for pullouts */
+#horiz-menu li ul ul {
+	margin: -30px 0 0 172px;
+}
+
+#horiz-menu li:hover ul ul, 
+#horiz-menu li:hover ul ul ul,
+#horiz-menu li:hover ul ul ul ul,  
+#horiz-menu li.sfhover ul ul, 
+#horiz-menu li.sfhover ul ul ul, 
+#horiz-menu li.sfhover ul ul ul ul {
+	left: -999em;
+}
+
+#horiz-menu li:hover ul, 
+#horiz-menu li li:hover ul, 
+#horiz-menu li li li:hover ul, 
+#horiz-menu li li li li:hover ul,
+#horiz-menu li.sfhover ul, 
+#horiz-menu li li.sfhover ul, 
+#horiz-menu li li li.sfhover ul,
+#horiz-menu li li li li.sfhover ul{
+	left: 0;
+}
+
+#horiz-menu li:hover, #horiz-menu li.sfhover {
+      left: 0;
+}
+
+#horiz-menu li li.active {
+
+}
+

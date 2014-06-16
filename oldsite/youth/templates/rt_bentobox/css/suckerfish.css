@@ -1,0 +1,128 @@
+/* @override http://tiger:8888/workspace/joomla/feb07/templates/rt_vortex/css/suckerfish.css */
+
+/*****************************
+ ****       suckerfish    ****
+ *****************************/
+
+#nav-sub {
+	margin-top: 9px;
+	height: 25px;
+	float: left;
+}
+
+#nav-sub ul {
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+#nav-sub li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: block;
+	background: none;
+	position: relative;
+}
+
+#nav-sub a {
+	display: block;
+	float: left;
+	height: 25px;
+	line-height: 27px;
+	padding: 0 15px;
+	text-decoration: none;
+	cursor: pointer;
+	background: none;
+}
+
+
+#nav-sub li.active li a:link,
+#nav-sub li.active li a:visited {
+	background: none;
+}
+
+#nav-sub li li a:link,
+#nav-sub li li a:visited{
+	background: none;
+	font-weight: normal;
+	padding: 0;
+	text-indent: 10px;
+}
+
+#nav-sub li li a:link,
+#nav-sub li li a:visited {
+	border: 0;
+	font-size: 100%;
+}
+
+#nav-sub li li {
+	background: none;
+	padding: 0;
+  width: 170px;
+}
+
+#nav-sub ul ul a:link,
+#nav-sub ul ul a:visited {
+	display: block;
+	text-decoration: none;
+	width: 169px;
+	text-transform: none;
+	background: none;
+}
+
+.suckerfish #nav-sub ul ul {
+	border-left: 0px;
+}
+
+
+#nav-sub ul li {
+	position: relative;
+}
+
+#nav-sub li ul {
+	top: 25px;
+	position: absolute;
+	z-index: 10;
+	left: -999em;
+	height: auto;
+	width: 170px;
+	font-weight: normal;
+	border-width: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/* margin for pullouts */
+#nav-sub li ul ul {
+	margin: -25px 0 0 170px;
+}
+
+#nav-sub li:hover ul ul, 
+#nav-sub li:hover ul ul ul,
+#nav-sub li:hover ul ul ul ul,  
+#nav-sub li.sfhover ul ul, 
+#nav-sub li.sfhover ul ul ul, 
+#nav-sub li.sfhover ul ul ul ul {
+	left: -999em;
+}
+
+#nav-sub li:hover ul, 
+#nav-sub li li:hover ul, 
+#nav-sub li li li:hover ul, 
+#nav-sub li li li li:hover ul,
+#nav-sub li.sfhover ul, 
+#nav-sub li li.sfhover ul, 
+#nav-sub li li li.sfhover ul,
+#nav-sub li li li li.sfhover ul{
+	left: 0;
+}
+
+#nav-sub li:hover, #nav-sub li.sfhover {
+      left: 0;
+}
+
+#nav-sub li li.active {
+
+}
+

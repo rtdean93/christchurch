@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template" version="1.0.0">
+	<name>simplify_blue</name>
+	<creationDate>November 2007</creationDate>
+	<author>Estime Templates</author>
+	<copyright>Estime Templates</copyright>
+    <authorEmail>info@estimetemplates.com</authorEmail>
+    <authorUrl>http://www.estimetemplates.com</authorUrl>
+	<version>1.0</version>
+	<description>This fresh template has clean and simple design and plenty of possibilities for personalization. Change your logo and background and make the template your own. Visit our site <a href="http://www.estimetemplates.com/?utm_source=template&utm_medium=link&utm_content=admin" target="_blank">www.estimetemplates.com</a> for news and updates. Advertise your site at our member sites forum.</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<images>
+		<filename>images/bg.gif</filename>
+		<filename>images/activebg.gif</filename>
+		<filename>images/bullet.gif</filename>
+		<filename>images/line.gif</filename>
+		<filename>images/mainpic.jpg</filename>
+		<filename>images/navibg.gif</filename>
+		<filename>images/simplifylogo.gif</filename>
+		<filename>images/index.html</filename>
+		<filename>images/moduletablebg_h3.gif</filename>
+	</images>
+	<css>
+		<filename>css/template_css.css</filename>
+		<filename>css/index.html</filename>
+		<filename>css/editor_content.css</filename>
+	</css>
+</mosinstall>

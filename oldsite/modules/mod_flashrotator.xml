@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.0">
+	<name>Flash Rotator</name>
+	<author>Joomlashack</author>
+	<creationDate>FEB 2007</creationDate>
+	<copyright>2007 www.joomlaShack.com</copyright>
+	<license>http://creativecommons.org/licenses/by-nc-sa/2.0/</license>
+	<authorEmail>joomlashack@gmail.com</authorEmail>
+	<authorUrl>www.joomlashack.com</authorUrl>
+	<version>2.0</version>
+	<description><![CDATA[<img src="images/mediamanager.png" alt="advertisement.png, 0 kB" width="48" height="48" hspace="5" border="0" align="left" title="advertisement"/>This module displays a dynamic transitional slideshow from a selection of JPG, GIF, or PNG images. You can name the images whatever you want as long as they are uploaded into the modules/js_flashrotator/jpg folder and all permissions are set to 777. You must utilize all 5 image fields or you will have long pauses in your movie. For best performance make sure your images are the same size as your specified movie settings. Enjoy this release from <a href="http://www.joomlaShack.com">JooomlaShack</a> with special thanks to Jeroen Wijering for all his work. For help, support and updates <a href="http://www.joomlashack.com/component/option,com_smf/Itemid,183/board,11.0">please see this forum</a>.]]>
+	</description>
+	<files>
+	<filename module="mod_flashrotator">mod_flashrotator.php</filename>
+	<filename module="mod_flashrotator">js_flashrotator/img/image1.png</filename>
+	<filename module="mod_flashrotator">js_flashrotator/img/image2.png</filename>
+	<filename module="mod_flashrotator">js_flashrotator/img/image3.png</filename>
+	<filename module="mod_flashrotator">js_flashrotator/img/image4.png</filename>
+	<filename module="mod_flashrotator">js_flashrotator/img/image5.png</filename>
+	<filename module="mod_flashrotator">js_flashrotator/flashrotator.swf</filename>
+	<filename module="mod_flashrotator">js_flashrotator/js_flashrotator.xml</filename>
+	<filename module="mod_flashrotator">js_flashrotator/ufo.js</filename>
+	</files>
+	<params>
+		<param name="width" type="text" default="500px" label="Width (px)" description="Movie width (forces all images to be displayed with this width)" />
+		<param name="height" type="text" default="115px" label="Height (px)" description="Movie height (forces all images to be displayed with the height)" />
+		<param name="bgcolor" type="text" default="FFFFFF" label="Movie background Color" description="The background color for your movie (shows in bgfade)" />
+		<param name="rotatetime" type="text" default="2" label="Tween Time" description="Set this number to the desired amount in seconds to tween in between images" />
+		<param name="transition" type="list" default="bgfade" label="Transition Effect" description="Select the transition you wish to apply to the flash object.">
+			<option value="random">Random Transition</option>
+			<option value="bgfade">Background Fade</option>
+			<option value="fade">Crossfade Transition</option>
+			<option value="fluids">Fluid Transition</option>
+			<option value="blocks">Blocks Transition</option>
+			<option value="circles">Circular Transition</option>
+			<option value="lines">Lines Transition</option>
+		</param>
+		<param name="autostart" type="radio" default="1" label="Autostart" description="Starts the transisition automatically. If set to 'True', the Repeat setting must also be set to 'True' or 'Once'">
+			<option value="1">True</option>
+			<option value="0">False</option>
+		</param>
+		<param name="repeat" type="radio" default="1" label="Repeat" description="The player can stop playback after every item to preserve bandwidth (repeat=false). You can set this to 'list' to playback all items in the playlist once, or to 'true' to continously playback your sequence.">
+			<option value="1">True</option>
+			<option value="0">False</option>
+			<option value="2">Once</option>
+		</param>
+		<param name="shuffle" type="radio" default="0" label="Shuffle" description="Shuffles randomly through entries">
+			<option value="1">True</option>
+			<option value="0">False</option>
+		</param>
+		<param name="shownavigation" type="radio" default="1" label="Show Navigation" description="Select if you would like navigation to appear in your movie">
+			<option value="1">True</option>
+			<option value="0">False</option>
+		</param>
+		<param name="showicons" type="radio" default="0" label="Show Icons" description="Shows a playhead icon when the transition is stopped. This is used primarily when images are not linkable and autoplay/repeat is disabled. Clicking the Icon will adcance to the next image">
+			<option value="1">True</option>
+			<option value="0">False</option>
+		</param>
+		<param name="linkfromdisplay" type="radio" default="1" label="Images Linkable" description="Select if you would like navigation to appear in your movie">
+			<option value="1">True</option>
+			<option value="0">False</option>
+		</param>
+		<param name="linktarget" type="radio" default="_SELF" label="Launch links in blank window" description="Select if you would like navigation to appear in your movie">
+			<option value="_blank">Yes</option>
+			<option value="_SELF">No</option>
+		</param>
+		<param name="frontcolor" type="text" default="000000" label="Text Color" description="Texts / buttons color of the player/rotator. (*when Show Navigation is set to true*)" />
+		<param name="lightcolor" type="text" default="96BD2A" label="Text Over Color" description="Rollover/ active color of the player/rotator. (*when Show Navigation is set to true*)" />
+		<param name="backcolor" type="text" default="FFFFFF" label="Text Underlay Color" description="Background color of the player/rotator. (*when Show Navigation is set to true*)" />
+		<param name="overstretch" type="list" default="3" label="Scaling Method" description="Defines how to stretch images/movies to make them fit the display. 'true' will stretch them proportionally to fill the display, 'false' will stretch them to fit. 'fit' will stretch them disproportionally to fit both height and width. 'none' will show all items in their original dimensions.">
+			<option value="1">True</option>
+			<option value="0">False</option>
+			<option value="2">Fit</option>
+			<option value="3">None</option>
+		</param>
+		<param name="title1" type="text" default="Image 1 Title" label="Title 1" description="Image Title" size="35" />
+		<param name="link1" type="text" default="http://www.joomlashack.com" label="Link 1" description="A URL to redirect to when clicked" size="35" />
+		<param name="image1" type="imagelist" directory="/modules/js_flashrotator/img" hide_none="1" default="image1.png" label="Image 1" description="Choose the image to be used" />
+		<param name="title2" type="text" default="Image 2 Title" label="Title 2" description="Image Title" size="35" />
+		<param name="link2" type="text" default="http://www.joomlashack.com" label="Link 2" description="A URL to redirect to when clicked" size="35" />
+		<param name="image2" type="imagelist" directory="/modules/js_flashrotator/img" hide_none="1" default="image2.png" label="Image 2" description="Choose the image to be used" />
+		<param name="title3" type="text" default="Image 3 Title" label="Title 3" description="Image Title" size="35" />
+		<param name="link3" type="text" default="http://www.joomlashack.com" label="Link 3" description="A URL to redirect to when clicked" size="35" />
+		<param name="image3" type="imagelist" directory="/modules/js_flashrotator/img" hide_none="1" default="image3.png" label="Image 3" description="Choose the image to be used" />
+		<param name="title4" type="text" default="Image 4 Title" label="Title 4" description="Image Title" size="35" />
+		<param name="link4" type="text" default="http://www.joomlashack.com" label="Link 4" description="A URL to redirect to when clicked" size="35" />
+		<param name="image4" type="imagelist" directory="/modules/js_flashrotator/img" hide_none="1" default="image4.png" label="Image 4" description="Choose the image to be used" />
+		<param name="title5" type="text" default="Image 5 Title" label="Title 5" description="Image Title" size="35" />
+		<param name="link5" type="text" default="http://www.joomlashack.com" label="Link 5" description="A URL to redirect to when clicked" size="35" />
+		<param name="image5" type="imagelist" directory="/modules/js_flashrotator/img" hide_none="1" default="image5.png" label="Image 5" description="Choose the image to be used" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="debug" type="radio" default="0" label="Debug" description="If you're having problems here, you can choose to temporarily show the output of the module configuration for debugging purposes." >
+			<option value="1">True</option>
+			<option value="0">False</option>
+		</param>
+</params>
+</mosinstall>

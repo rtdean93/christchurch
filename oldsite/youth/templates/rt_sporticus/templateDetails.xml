@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="1.0" type="template">
+    <name>rt_sporticus</name>
+    <version>1.0.4</version>
+    <creationDate>12/14/06</creationDate>
+    <author>rhuk</author>
+    <authorEmail>support@rockettheme.com</authorEmail>
+    <authorUrl>http://www.rockettheme.com</authorUrl>
+    <copyright>Copyright 2005-2007 - RocketTheme.com</copyright>
+    <license></license>
+    <description>
+<![CDATA[
+<h1>RocketTheme Sporticus</h1>
+
+<img src="../templates/rt_sporticus/template_thumbnail.png" align="left" hspace="10" />Sporticus is the January 2007 template for the RocketTheme Joomla! Template Club.  It is not free or public.  This is template is for members of the RocketTheme Joomla Template Club only.  For installation help check out the 'Sporticus' Overview Page on the <a href="http://www.rockettheme.com/blogcategory/Template_Club/">RocketTheme Template Club</a> home page.
+
+<h3>Changelog</h3>
+
+<b>1.0.4</b><br />
+<ul>
+<li>Fixed an issue with livesearch taking you back to homepage</li>	
+</ul>
+
+<b>1.0.3</b><br />
+<ul>
+<li>Resolved some issues with livesearch and itemid</li>
+<li>Added support for regular joomla search for livesearch</li>
+<li>Added ability to turn off livesearch</li>
+<li>Added support for sameheight user1,user2 and user3,user4</li>
+<li>Restricted js & modules with frontend editing for better 3rd party editor support</li>
+</ul>
+
+<b>1.0.2</b><br />
+<ul>
+<li>Removed notices from splitmenu</li>
+<li>Removed basedir restriction for livesearch</li>
+<li>Added support for horizontal menu in the footer</li>
+
+</ul>
+
+<b>1.0.1</b><br />
+<ul>
+<li>Fixed z-index problem with IE and Live Search</li>
+</ul>
+
+<b>1.0</b><br />
+<ul>
+<li>Initial Release</li>
+</ul>
+
+]]>    	
+    </description>
+    <files>
+		<filename>index.php</filename>
+		<filename>rt_splitmenu.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>css/body_beige.css</filename>
+		<filename>css/body_grey.css</filename>
+		<filename>css/editor_content.css</filename>
+		<filename>css/index.html</filename>
+		<filename>css/primary_blue.css</filename>
+		<filename>css/primary_green.css</filename>
+		<filename>css/primary_purple.css</filename>
+		<filename>css/primary_red.css</filename>
+		<filename>css/template_css.css</filename>
+		<filename>css/template_ie.css</filename>
+		<filename>css/template_ie7.css</filename>
+		<filename>images/bullet1.png</filename>
+		<filename>images/bullet3.png</filename>
+		<filename>images/button_bg2.png</filename>
+		<filename>images/dropshadow.png</filename>
+		<filename>images/emailButton.png</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/index.html</filename>
+		<filename>images/loading-bar-black.gif</filename>
+		<filename>images/pdf_button.png</filename>
+		<filename>images/printButton.png</filename>
+		<filename>images/submenu_bg.png</filename>
+		<filename>images/topmenu_bg.png</filename>
+		<filename>images/topmenu_sep.png</filename>
+		<filename>images/background/blue/bg.png</filename>
+		<filename>images/background/dark/bg.png</filename>
+		<filename>images/background/light/bg.png</filename>
+		<filename>images/background/medium/bg.png</filename>
+		<filename>images/body/beige/bullet1.png</filename>
+		<filename>images/body/beige/rocket.png</filename>
+		<filename>images/body/beige/w3c_css.png</filename>
+		<filename>images/body/beige/w3c_xhtml.png</filename>
+		<filename>images/body/grey/bullet1.png</filename>
+		<filename>images/body/grey/rocket.png</filename>
+		<filename>images/body/grey/w3c_css.png</filename>
+		<filename>images/body/grey/w3c_xhtml.png</filename>
+		<filename>images/primary/blue/blockquote_bg.png</filename>
+		<filename>images/primary/blue/bullet4.png</filename>
+		<filename>images/primary/blue/button_bg1.png</filename>
+		<filename>images/primary/blue/header_bg.png</filename>
+		<filename>images/primary/blue/header_spotlight.png</filename>
+		<filename>images/primary/blue/li.png</filename>
+		<filename>images/primary/blue/li_arrow.png</filename>
+		<filename>images/primary/blue/li_big.png</filename>
+		<filename>images/primary/blue/logo.png</filename>
+		<filename>images/primary/green/blockquote_bg.png</filename>
+		<filename>images/primary/green/bullet4.png</filename>
+		<filename>images/primary/green/button_bg1.png</filename>
+		<filename>images/primary/green/header_bg.png</filename>
+		<filename>images/primary/green/header_spotlight.png</filename>
+		<filename>images/primary/green/li.png</filename>
+		<filename>images/primary/green/li_arrow.png</filename>
+		<filename>images/primary/green/li_big.png</filename>
+		<filename>images/primary/green/logo.png</filename>
+		<filename>images/primary/purple/blockquote_bg.png</filename>
+		<filename>images/primary/purple/bullet4.png</filename>
+		<filename>images/primary/purple/button_bg1.png</filename>
+		<filename>images/primary/purple/header_bg.png</filename>
+		<filename>images/primary/purple/header_spotlight.png</filename>
+		<filename>images/primary/purple/li.png</filename>
+		<filename>images/primary/purple/li_arrow.png</filename>
+		<filename>images/primary/purple/li_big.png</filename>
+		<filename>images/primary/purple/logo.png</filename>
+		<filename>images/primary/red/blockquote_bg.png</filename>
+		<filename>images/primary/red/bullet4.png</filename>
+		<filename>images/primary/red/button_bg1.png</filename>
+		<filename>images/primary/red/header_bg.png</filename>
+		<filename>images/primary/red/header_spotlight.png</filename>
+		<filename>images/primary/red/li.png</filename>
+		<filename>images/primary/red/li_arrow.png</filename>
+		<filename>images/primary/red/li_big.png</filename>
+		<filename>images/primary/red/logo.png</filename>
+		<filename>js/livesearch.js</filename>
+		<filename>js/mootools.release.83.js</filename>
+		<filename>js/slimbox.js</filename>
+		<filename>js/rt_sameheight.js</filename>
+		<filename>livesearch/livesearch.php</filename>
+		<filename>livesearch/livesearch_ui.php</filename>
+		<filename>slimbox/closelabel.gif</filename>
+		<filename>slimbox/loading.gif</filename>
+		<filename>slimbox/nextlabel.gif</filename>
+		<filename>slimbox/prevlabel.gif</filename>
+		<filename>slimbox/slimbox.css</filename>
+	</files>
+    <params/>
+</mosinstall>

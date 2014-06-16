@@ -1,0 +1,163 @@
+/* green variant */
+
+a:link,
+a:visited {
+	color: #3567C6;
+}
+
+a:hover {
+	color: #5c94ff;
+}
+
+ul li {
+	background: url(../images/primary/green/li.png) 0 2px no-repeat;
+}
+
+ul.arrow li {
+	background: url(../images/primary/green/li_arrow.png) no-repeat;
+}
+
+ul.big li {
+	background: url(../images/primary/green/li_big.png) 0 1px no-repeat;
+}
+
+blockquote {
+	background: #568ce9 url(../images/primary/green/blockquote_bg.png) no-repeat;
+	border: 1px solid #4775c5;
+	color: #000;
+}
+
+.contentheading {
+	color: #3567C6;
+}
+
+#header {
+	background: #fff url(../images/primary/green/header_bg.png) repeat-x;
+}
+
+#logo {
+	background: url(../images/primary/green/logo.png) no-repeat;
+}
+
+#header_spotlight {
+	background: url(../images/primary/green/header_spotlight.png) repeat-x;
+}
+
+#nav li.active_menu a:link,
+#nav li.active_menu a:visited,
+#nav li.active_menu a:hover {
+	color: #3567C6;
+}
+
+div#menu_horiz ul.submenu li.active_menu a {
+	color: #b7cfff;
+}
+
+div#topbox div.moduletable h3 {
+	color: #b7cfff;
+}
+
+div.loginelement a:hover {
+	color: #b7cfff;
+}
+
+div.loginelement a:link,
+div.loginelement a:visited {
+	color: #fff;
+}
+
+div.loginelement {
+	color: #ccc;
+}
+
+div.loginelement label {
+	color: #ccc;
+}
+
+a:hover span.loginsubmit,
+a:hover span.logoutsubmit {
+	border: 1px solid #b7cfff;
+}
+
+a.readon {
+	border: 1px solid #333333;
+	color: #fff;
+	background: url(../images/button_bg2.png) 0 0 repeat-x;
+}
+
+a.readon:hover {
+	border: 1px solid #b7cfff;
+}
+
+.modifydate {
+	color: #3567C6;
+}
+
+.createdate {
+	color: #3567C6;
+}
+
+.moduletable-hilite {
+	background: #568ce9;
+	border: 1px solid #3567c6;
+	color: #000;
+}
+
+.moduletable-hilite a:link,
+.moduletable-hilite a:visited {
+	color: #ddd;
+}
+
+.moduletable-hilite a:hover {
+	color: #fff;
+}
+
+.moduletable-hilite h3 {
+	background:  #3567c6 url(../images/primary/green/bullet4.png) 5px 50% no-repeat;
+}
+
+/* scroller */
+
+div#scroller-v a:link,
+div#scroller-v a:visited {
+	color: #ddd;
+}
+
+div#scroller-v a:hover {
+	color: #b7cfff;
+}
+
+/* live search */
+#LSShadow {
+	background-color: #69923d;
+	border: 1px solid #587a34;
+}
+
+#LSResult {
+	color: #b7cfff;
+}
+
+.LSRow {
+
+	border-top: 1px solid #7aa948;
+	border-bottom: 1px solid #547532;
+}
+
+#LSResult a:link,
+#LSResult a:visited {
+	color: #ccc;
+}
+
+#LSResult a:hover {
+	color: #b7cfff;
+}
+
+#LSHighlight {
+	background-color: #b7cfff;
+	border-top: 1px solid #dce8ff;
+	border-bottom: 1px solid #8aacf1;
+}
+
+#LSHighlight.LSRow a {
+	color: #333;
+}

@@ -1,0 +1,343 @@
+/* Style 9 */
+
+body {
+	color: #ccc;
+	background: #000;
+}
+
+a,
+h3 {
+	color: #D4A70B;
+}
+
+.rok-content-rotator h2 a.active {
+	color: #D4A70B !important;
+}
+
+.contentheading {
+	background: url(../images/style9/content-head-bg.png) 0 3px no-repeat;
+	color: #D4A70B;
+}
+
+td.leftcol tr.sectiontableentry1 td,
+td.rightcol tr.sectiontableentry1 td,
+td.leftcol tr.sectiontableentry2 td,
+td.rightcol tr.sectiontableentry2 td,
+td.leftcol td.sectiontableentry1,
+td.rightcol td.sectiontableentry1,
+td.leftcol td.sectiontableentry2,
+td.rightcol td.sectiontableentry2 {
+  	border-bottom: 1px solid #333;
+}
+
+td.leftcol tr.sectiontableentry1 td,
+td.rightcol tr.sectiontableentry1 td,
+td.leftcol td.sectiontableentry1,
+td.rightcol td.sectiontableentry1 {
+	background: #444;
+}
+
+#page-bg {
+	background: url(../images/style9/page-bg.jpg) 50% -85px repeat-x;
+}
+
+#header {
+	background: url(../images/dark/header-bg.png) 50% 0 repeat-x;
+}
+
+#logo {
+	background: url(../images/dark/logo.png) 0 0 no-repeat;
+}
+
+#topmod {
+	background: url(../images/dark/login-pane.png) 0 -50px no-repeat;
+}
+
+#toplinks a.mainlevel {
+	color: #666;
+}
+
+#toplinks a:hover {
+	color: #ccc;
+}
+
+.rok-content-rotator .arrow {
+	background: url(../images/dark/rotator-arrow.png) 0 0 no-repeat;
+}
+
+.rok-content-rotator {
+	background: #333;
+}
+
+#showcase {
+	background: url(../images/dark/showcase-bg.png) 0 0;
+	color: #fff;
+}
+
+#showcase a {
+	color: #000;
+}
+
+#showcase .module h3 {
+	color: #000;
+}
+
+#showcase .module h3 span {
+	color: #fff;
+}
+
+#featured .module a {
+	color: #D4A70B;
+}
+
+#featured-bottom {
+	background: url(../images/dark/featured-bl.png) 0 100% no-repeat;
+}
+
+#featured-bottom2 {
+	background: url(../images/dark/featured-br.png) 100% 100% no-repeat;
+}
+
+#featured .module h3,
+.module-scroller h3 {
+	color: #D4A70B;
+}
+
+#main-content-bar {
+	background: url(../images/dark/main-content-bar.png) 0 0 repeat-x;
+}
+
+div.maincol-indicator {
+	background: url(../images/dark/maincol-indicator.png) 0 0 no-repeat;
+}
+
+td.rightcol,
+td.leftcol {
+	background: #303030;
+	color: #ccc;
+}
+
+.footer2 {
+	background: url(../images/dark/footer-bl.png) 0 100% no-repeat;
+}
+
+.footer3 {
+	background: url(../images/dark/footer-br.png) 100% 100% no-repeat;
+}
+
+img#rocket {
+	background: url(../images/dark/rocket.png) 0 0 no-repeat;
+}
+
+td.rightcol .module h3,
+td.leftcol .module h3,
+td.rightcol .module-menu h3,
+td.leftcol .module-menu h3,
+td.rightcol .module_menu h3,
+td.leftcol .module_menu h3 {
+	background: url(../images/dark/sidemodule-h3.png) 0 0 no-repeat;
+	color: #ccc;
+}
+
+td.rightcol .module h3 span,
+td.leftcol .module h3 span,
+td.rightcol .module-menu h3 span,
+td.leftcol .module-menu h3 span,
+td.rightcol .module-red h3 span,
+td.leftcol .module-red h3 span,
+td.rightcol .module-blue h3 span,
+td.leftcol .module-blue h3 span,
+td.rightcol .module-black h3 span,
+td.leftcol .module-black h3 span,
+td.rightcol .module-green h3 span,
+td.leftcol .module-green h3 span,
+td.rightcol .module-orange h3 span,
+td.leftcol .module-orange h3 span {
+	color: #fff;
+}
+
+td.rightcol .module a,
+td.leftcol .module a {
+	color: #D4A70B;
+}
+
+td.rightcol .module-red h3,
+td.leftcol .module-red h3 {
+	background: url(../images/dark/sidemodule-red.png) 0 0 no-repeat;
+	color: #DBB8B8;
+}
+
+td.rightcol .module-blue h3,
+td.leftcol .module-blue h3 {
+	background: url(../images/dark/sidemodule-blue.png) 0 0 no-repeat;
+	color: #BAD5DF;
+}
+
+td.rightcol .module-black h3,
+td.leftcol .module-black h3 {
+	background: url(../images/dark/sidemodule-black.png) 0 0 no-repeat;
+	color: #bebebe;
+}
+
+td.rightcol .module-green h3,
+td.leftcol .module-green h3 {
+	background: url(../images/dark/sidemodule-green.png) 0 0 no-repeat;
+	color: #D0DAB3;
+}
+
+td.rightcol .module-orange h3,
+td.leftcol .module-orange h3 {
+	background: url(../images/dark/sidemodule-orange.png) 0 0 no-repeat;
+	color: #ECD3B3;
+}
+
+#horiz-menu {
+	background: url(../images/style9/horiz-menu-l.png) 0 0 no-repeat;
+}
+
+#horiz-menu2 {
+	background: url(../images/style9/horiz-menu-r.png) 100% 0 no-repeat;
+}
+
+#horiz-menu a,
+#horiz-menu li.active a {
+	color: #ccc;
+}
+
+#horiz-menu li.active a {
+	background: url(../images/style9/horiz-menu-active.png) 50% 0 no-repeat;
+	color: #fff;
+}
+
+#horiz-menu li a:hover {
+	color: #fff;
+}
+
+div.menuslide {
+	background: url(../images/style9/horiz-menu-hover.png) 50% 0 no-repeat;
+	width: 65px;
+	height: 19px;
+}
+
+#horiz-menu ul ul li a:hover,
+#horiz-menu ul li.active.parent ul a:hover {
+	color: #D4A70B;
+}
+
+#main-content a.mainlevel {
+	color: #fff;
+	background: url(../images/dark/menu-arrow.png) 4px 7px no-repeat;
+}
+
+#main-content a#active_menu.mainlevel {
+	background: url(../images/style9/menu-arrow-active.png) 4px 7px no-repeat;
+	color: #D4A70B;
+}
+
+#main-content a.mainlevel:hover {
+	color: #D4A70B;
+}
+
+#main-content a.sublevel {
+	color: #fff;
+}
+
+#main-content a.sublevel:hover {
+	color: #D4A70B;
+}
+
+#main-content a#active_menu.sublevel {
+	color: #D4A70B;
+}
+
+ul.menu a {
+	color: #fff;
+	background: url(../images/dark/menu-arrow.png) 4px 7px no-repeat;
+}
+
+ul.menu ul li a,
+ul.menu li.active.parent ul li a,
+ul.menu li.active.parent ul li.parent a.daddy,
+ul.menu li.active.parent ul li.active.parent ul li a {
+	color: #fff;
+}
+
+ul.menu a:hover,
+ul.menu li.active a,
+ul.menu li.active.parent a.daddy,
+ul.menu li.active.parent ul li a:hover,
+ul.menu li.active.parent ul li.parent a.daddy:hover,
+ul.menu li.active.parent ul li.active.parent ul li a:hover,
+ul.menu li.active.parent ul li.active.parent a.daddy,
+ul.menu li.active.parent ul li.active a,
+ul.menu li.active.parent ul li.active.parent ul li.active a {
+	color: #D4A70B;
+}
+
+ul.menu li.active a,
+ul.menu li.active a.daddy {
+	background: url(../images/style9/menu-arrow-active.png) 4px 7px no-repeat;
+}
+
+ul.menu ul {
+	background: #191919 url(../images/dark/sidemenu-bgtop.png) 15px 0 no-repeat;
+}
+
+a.readon {
+	background: url(../images/style9/readon.png) 0 0 no-repeat;
+	color: #fff;
+}
+
+blockquote.color2,
+.important-title2,
+span.number-color,
+span.dropcap-color {
+	color: #D4A70B;
+}
+
+blockquote.color3,
+.important-title3,
+span.number-color2,
+span.dropcap-color2 {
+	color: #cc0000;
+}
+
+.important2 {
+	border: 1px solid #D4A70B;
+}
+
+.important3 {
+	border: 1px solid #cc0000;
+}
+
+a.large .button {
+	background: url(../images/dark/font-lg.png) 0 0 no-repeat;
+}
+
+a.small .button {
+	background: url(../images/dark/font-sm.png) 0 0 no-repeat;
+}
+
+a.default .button {
+	background: url(../images/dark/font-d.png) 0 0 no-repeat;
+}
+
+div.content-bar-text {
+	color: #fff;
+}
+
+div.content-bar-text2 {
+	color: #000;
+}
+
+span.color2 {
+	color: #999;
+}
+
+span.color3 {
+	color: #fff;
+}
+
+span.rotator-demo-header {
+	color: #D4A70B;
+}

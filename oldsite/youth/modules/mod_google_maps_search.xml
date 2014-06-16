@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="4.5.2">
+  <name>Google Maps Search</name>
+  <author>David Pollack</author>
+  <authorEmail>dhpollack@gmail.com</authorEmail>
+  <authorUrl>www.atlspecials.com/index.php?option=com_google_maps\&Itemid=35</authorUrl>
+  <creationDate>January 2006</creationDate>
+  <copyright>(C) 2006 David Pollack</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <version>2.0</version>
+  <description>Local search module utilizing the Yahoo! Search API for the Google Maps Component</description>
+  <files>
+    <filename module="mod_google_maps_search">mod_google_maps_search.php</filename>
+    <filename>mod_google_maps_search.xml.php</filename>
+  </files>
+  <params />
+</mosinstall>

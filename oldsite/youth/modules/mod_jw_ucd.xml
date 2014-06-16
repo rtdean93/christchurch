@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="module" version="1.0.0">
+	<name>JW Ultimate Content Display</name>
+	<author>JoomlaWorks</author>
+	<creationDate>07/06/2007</creationDate>	
+	<copyright>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</copyright>
+	<authorEmail>joomlaworks@gmail.com</authorEmail>
+	<authorUrl>http://www.joomlaworks.gr</authorUrl>
+	<version>1.0</version>
+	<description>
+		<![CDATA[
+<style type="text/css" media="all">
+<!--
+#extension_container {padding:0px 0px 4px 0px;}
+h1 {clear:both;margin:0px 0px 12px 0px;padding:0px 0px 1px 0px;color:#C64934;font-size:17px;border-bottom:1px dotted #505050;}
+h2 {clear:both;font-size:17px;}
+.title {margin:4px 0px;font-size:12px;font-weight:bold;}
+.red {color:#C64934;}
+#extension_container ul {margin:4px 16px;padding:0px;list-style:square;}
+#extension_container ul li {margin:2px;padding:0px;}
+#jw_ext_logo {float:right;background:#fff;border:0px solid #ccc;padding:2px;margin:0px 0px 2px 8px;}
+a.active,a.focus {outline:0;}
+-->
+</style>
+<div id="extension_container">		
+  <h1><a target="_blank" title="Visit JoomlaWorks!" href="http://www.joomlaworks.gr">JoomlaWorks "Ultimate Content Display" Module v1.0</a></h1>
+  <a target="_blank" title="Ultimate Content Display" href="http://www.joomlaworks.gr"><img id="jw_ext_logo" src="../modules/mod_jw_ucd/logo.png" border="0" alt="Logo" /></a>The "Ultimate Content Display" module by <a target="_blank" title="Visit JoomlaWorks!" href="http://www.joomlaworks.gr">JoomlaWorks</a> is a "super content retrieval" module and probably the only one you'll ever need!
+  <br /><br />
+  It can fetch and display your Joomla! content or newsfeed items in any module position in 3 different ways. In a plain (unordered) list format, inside an ajax cross-fader or inside a jQuery-based cross-fader/slider! 3 unique ways to display your content or newsfeed items! So you can have for example a "latest news" side module, along with a cross fader box that retrieves content from a specific category dynamically and a content slider, acting as a "newsflash" box! Pretty cool, right?
+  <br /><br />
+  The "Ultimate Content Display" module is actually the evolution of JoomlaWorks' popular "Ultimate AJAX Newsflash" and "Content Items Fading Scroller" modules and has been developed with ease of use and... practicality in mind! It's the kind of module you "set and forget", cause it simply works! Plus, it can help you create powerful Joomla! based portal websites, which require various types of "content" or "info" boxes.
+  <br /><br />
+  Make sure you check out our <a target="_blank" href="http://demo.joomlaworks.gr">official DEMO site</a> to see the module in action.
+  <br /><br />
+  Enjoy one more fine release from the folks at JoomlaWorks!
+  <br /><br />
+
+  <h2>USAGE INSTRUCTIONS</h2>
+	First of all, check the parameters at the bottom of this page and set them accordingly (see the tooltip explanations for more)!<br />
+  <ul>
+	<li>Make sure you must define at least one "content source ID" (for section, category, content item etc.) for the module to work!</li>
+	<li>In order for you to have multiple instances (copies) of the module at the same page, you must give each module instance (copy) a "Unique ID". Using this option you can have for example 3 copies of the module on your frontpage, one for displaying content in a list, another using the AJAX fader and the last one using the jQuery fader/slider. Or even more!</li>
+	<li>The module fully supports the latest stable release of Joom!Fish (1.7) for Joomla! 1.0.x. Which means your content will switch languages automatically, provided it is translated already using Joom!Fish.</li>
+	<li>The module is "plug 'n' play", which means you install it, set it up and publish it, without any changes to the code. The module will inherit your template's CSS settings and will merge nicely with the rest of the content. However, if you wanna style the module differently, all you need to do is modify the corresponding CSS file for each display type (list, ajax fader or jquery fader/slider). The CSS file is <b class="red">modules/mod_jw_ucd/XXX/mod_jw_ucd.css</b>, where XXX is the display type: list, ajaxfader or jqueryfader (respectively).</li>
+  </ul>	
+  <br />
+  <h2>CHANGELOG</h2>
+  <div class="title">Version 1.0 Changelog (June 7th, 2007)</div>
+  <ul>
+    <li>Version 1.0 of the module is released.</li>
+  </ul>
+  <br />
+  <h2>CREDITS</h2>
+  The <b>"Ultimate Content Display" Module</b> utilizes the following scripts:
+  <ul>
+	<li><a target="_blank" href="http://www.dynamicdrive.com/dynamicindex2/ajaxticker.htm">Ajax XML Ticker</a> by Dynamic Drive.</li>
+	<li><a target="_blank" href="http://medienfreunde.com/lab/innerfade/">Innerfade for jQuery</a> by Medien Freunde.</li>
+  </ul>
+  <br />
+  <h2>ABOUT JOOMLAWORKS</h2>
+  The <b>"Ultimate Content Display" Module</b> is a <b class="red">Joomla! Content Management System</b> extension developed by <a target="_blank" title="Visit JoomlaWorks!" href="http://www.joomlaworks.gr">JoomlaWorks (www.joomlaworks.gr)</a> and released under the <a target="_blank" title="GNU General Public License" href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License</a>. <br />
+  <br />
+  <a target="_blank" title="Visit JoomlaWorks!" href="http://www.joomlaworks.gr">JoomlaWorks</a> is a team of web professionals dedicated to delivering high-quality extensions and templates to the Joomla! community. We also do custom development for anyone looking for a tailor-made solution to their project, so feel free to <a target="_blank" title="Contact JoomlaWorks!" href="mailto:joomlaworks@gmail.com">contact us</a>. <br />
+  <br />
+  Make sure you visit:
+  <ul>
+    <li><a target="_blank" title="Visit JoomlaWorks!" href="http://www.joomlaworks.gr">www.joomlaworks.gr</a> for all the latest news and updates to our Joomla! extensions and templates. The <a target="_blank" title="Visit JoomlaWorks!" href="http://www.joomlaworks.gr">JoomlaWorks</a> website is also <b class="red" style="text-decoration:underline;">the</b> place to read interesting articles or find useful tips/tutorials for Joomla! and web design/development in general.</li>
+    <li><a target="_blank" title="Visit JoomlaWorks Demo Site" href="http://demo.joomlaworks.gr">demo.joomlaworks.gr</a> to experience "live" all our extensions.</li>
+    <li><a target="_blank" title="Visit JoomlaWorks Support Forum!" href="http://forum.joomlaworks.gr">forum.joomlaworks.gr</a> to request for help or provide feedback.</li>
+  </ul>
+  <br />
+  Please show your support in our work by rating or commenting on this extension at the official <a target="_blank" href="http://extensions.joomla.org/component/option,com_mtree/task,viewowner/user_id,1596/Itemid,35/">Joomla! Extensions</a> website. <br />
+  <br />
+  <b><span class="red">the JoomlaWorks team</span><br />Fotis Evangelou, George Chouliaras, Luca Scarpa</b><br />
+  <br />
+  Copyright (c) 2006 - 2007 JoomlaWorks.gr - <a href="http://www.joomlaworks.gr" target="_blank">http://www.joomlaworks.gr</a><br />
+  <br />
+  <i>(Last update: June 7th, 2007 - version 1.0)</i><br />
+  <br />
+</div>	
+		]]>
+	</description>
+	
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="uniqueid" type="text" default="ucd-instance" label="Unique ID (required)" description="This ID must be unique and must only contain latin characters with no spaces or numbers. So keep it simple, like 'sidenews'! This option allows you to have multiple boxes inside your template and published in any position." />
+		<param name="udc_displaytype" type="list" default="list" label="Content display type" description="How should we display our content? Highlights: 'Normal list' output an unordered -ul- list of items. The 'AJAX based cross fader' retrieves content dynamically, thus your web page loads faster. The jQuery fader/slider on the other hand provides a smoother fade and a cool 'slide' effect.">
+			<option value="list">Normal list</option>
+			<option value="ajaxfader">AJAX based cross fader</option>
+			<option value="jqueryfader">jQuery based cross fader/slider</option>
+		</param>		
+		<param name="cache" type="radio" default="0" label="Enable cache" description="Select whether to cache the contents of this module or not? Use this option only when Joomla!'s cache is turned on.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="======== CONTENT RETRIEVAL SETTINGS ========" label="" description="" />
+		<param name="where" type="list" default="section" label="Content source type" description="The type of source to retrieve content from. After this step you need to specify 'content source ID(s)' below.">
+			<option value="section">Content Section</option>
+			<option value="category">Content Category</option>
+			<option value="content">Content Item</option>
+			<option value="newsfeed">Newsfeed Category</option>
+			<option value="newsfeed_item">Newsfeed Item</option>
+		</param>
+		<param name="where_id" type="text" default="" label="Content source IDs (required)" description="The IDs of selected source type (above) to retrieve content/newsfeed items from. If you want to display content from multiple IDs, simply write the specified IDs, seperated by a comma (e.g. 2,5,6). You must specify at least one ID in order for the module to work!" />
+		<param name="ordering" type="list" default="rdate" label="Ordering" description="The order that content items will be presented (doesn't apply to Newsfeed Category/Newsfeed Item obviously!). Use the 'random' option if you wanna re-create e.g. a fading 'newsflash', replacing the default newsflash module inside Joomla!">
+			<option value="rdate">Most recent first</option>
+			<option value="date">Oldest first</option>
+			<option value="alpha">Title Alphabetical</option>
+			<option value="ralpha">Title Reverse-Alphabetical</option>
+			<option value="hits">Most Hits</option>
+			<option value="rhits">Least Hits</option>
+			<option value="order">Ordering</option>
+			<option value="random">Random</option>
+		</param>
+		<param name="count" type="text" default="5" label="Item count" description="The number of content/newsfeed items to display (default is 5)." />
+		<param name="show_front" type="radio" default="0" label="Show frontpage items" description="Show/hide content items assigned to the Frontpage.">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+		<param name="show_section_title" type="radio" default="1" label="Show section title" description="Show/hide Section Title">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+		<param name="show_category_title" type="radio" default="1" label="Show catagory title" description="Show/hide Catagory Title">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+		<param name="seperator" type="text" default=">>" label="Section - category seperator" description="A seperator between the section title and the category title, when both are displayed." />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="======== ITEM DISPLAY SETTINGS ========" label="" description="" />
+		<param name="plugins" type="radio" default="1" label="Load Plugins (Bots)" description="Select whether to process or not plugins (mambots/bots) used inside content items.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>		
+		<param name="display" type="list" default="2" label="Display option" description="Select whether you want to display the title only, the introtext only or both.">
+			<option value="0">Title only</option>
+			<option value="1">Introtext only</option>
+			<option value="2">Title &amp; intotext</option>
+		</param>		
+		<param name="linked" type="radio" default="1" label="Enable link in title" description="Select if you want the content item's title to link to the full text -if it exists- or to the related newsfeed.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>		
+		<param name="datecreated" type="radio" default="1" label="Show item creation date" description="Select whether to show item creation date or not.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="more" type="radio" default="1" label="Show 'Read More' Link" description="Select whether to show a 'read more' link below retrieved content item or not.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="words" type="text" default="" label="Introtext word limit" description="Word limitation for retrieved content item. Leave it blank if you DO NOT wish to limit the number of words!" />	
+		<param name="chars" type="text" default="" label="Introtext character limit" description="Character limitation for retrieved content item. Leave it blank if you DO NOT wish to limit the number of characters!" />	
+		<param name="hideimages" type="radio" default="0" label="Hide introtext images?" description="Select whether to show or hide images contained inside the item's introtext. Useful when you want to create a single-line news ticker that cross fades!">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="striptags" type="radio" default="0" label="HTML cleanup" description="Do some HTML cleanup, especially when you limit the introtext by words or characters. This way you will not get 'unclosed' HTML tags like p (paragraph) that will cause your content to break. Use with caution! Allowed tags are: br, a, b, i, u, span. Adjust as necessery in the main php file of the module.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="======== AJAX CROSS FADER SETTINGS ========" label="" description="" />
+		<param name="charset" type="text" default="UTF-8" label="Site encoding" description="Define your site's character encoding." />
+		<param name="udc_ajf_width" type="text" default="100%" label="Cross fader box width" description="Set the cross fader box width in either pixels or percentages, like '100px' or '80%'." />
+		<param name="udc_ajf_height" type="text" default="300px" label="Cross fader box height" description="Set the cross fader box height in either pixels or percentages, like '100px' or '80%'." />
+		<param name="udc_ajf_delay" type="text" default="6000" label="Rotation delay" description="Set here the rotation delay time (in miliseconds) between items. 1000 means 1 second." />
+		<param name="udc_ajf_bgcolor" type="text" default="#ffffff" label="Background color (required for IE6)" description="Define the background color of the container. This option is required for IE to display the fade effect correctly." />
+		<param name="udc_ajf_bottomfade" type="radio" default="0" label="Show a smooth bottom fade?" description="Show/hide a smooth bottom fade. This option is ideal when the introtext exceeds in height the cross fader box height!">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+		<param name="udc_ajf_cache" type="text" default="10" label="AJAX cache refresh (in minutes)" description="Set here how often the AJAX cache refreshes in minutes. IMPORTANT: Do not set to '0' except for testing reasons!" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="======== JQUERY CROSS FADER/SLIDER SETTINGS ========" label="" description="" />
+		<param name="udc_jqf_cheight" type="text" default="300px" label="Cross fader/slider box height (px)" description="Set the cross fader/slider box height in pixels/ems (like '100px'), but NOT percentages!" />
+		<param name="udc_jqf_anim" type="radio" default="slide" label="Animation effect" description="Choose animation effect.">
+			<option value="fade">Fade</option>
+			<option value="slide">Slide</option>
+		</param>
+		<param name="udc_jqf_speed" type="text" default="750" label="Rotation speed" description="Set here the rotation speed (in miliseconds) between items. 1000 means 1 second." />
+		<param name="udc_jqf_timeout" type="text" default="6000" label="Rotation delay" description="Set here the rotation delay time (in miliseconds) between items. 1000 means 1 second." />						
+		<param name="udc_jqf_bgcolor" type="text" default="#ffffff" label="Background color (required for IE6)" description="Define the background color of the container. This option is required for IE to display the fade effect correctly." />
+		<param name="udc_jqf_bottomfade" type="radio" default="0" label="Show a smooth bottom fade?" description="Show/hide a smooth bottom fade. This option is ideal when the introtext exceeds in height the cross fader/slider box height!">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+	</params>
+
+	<files>
+		<filename module="mod_jw_ucd">mod_jw_ucd.php</filename>
+		<filename module="mod_jw_ucd">mod_jw_ucd/logo.png</filename>
+		<filename module="mod_jw_ucd">mod_jw_ucd/ajaxfader/ajaxfader.js</filename>
+		<filename module="mod_jw_ucd">mod_jw_ucd/ajaxfader/bottomfade.png</filename>
+		<filename module="mod_jw_ucd">mod_jw_ucd/ajaxfader/mod_jw_ucd.css</filename>
+		<filename module="mod_jw_ucd">mod_jw_ucd/jqueryfader/bottomfade.png</filename>
+		<filename module="mod_jw_ucd">mod_jw_ucd/jqueryfader/jquery.innerfade.js</filename>
+		<filename module="mod_jw_ucd">mod_jw_ucd/jqueryfader/jquery.js</filename>
+		<filename module="mod_jw_ucd">mod_jw_ucd/jqueryfader/mod_jw_ucd.css</filename>
+		<filename module="mod_jw_ucd">mod_jw_ucd/list/mod_jw_ucd.css</filename>
+	</files>	
+</mosinstall>

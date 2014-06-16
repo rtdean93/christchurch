@@ -1,0 +1,13 @@
+#safari {
+	position: static;
+}
+
+#nav {
+  position: static;
+	top: 0;
+}
+
+#menu_horiz {
+	position: static;
+	top: 0;
+}

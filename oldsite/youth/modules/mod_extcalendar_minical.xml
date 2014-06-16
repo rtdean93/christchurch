@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+ <mosinstall type="module">
+  <name>ExtCalendar</name>
+  <creationDate>May 22, 2005</creationDate>
+  <author>Matthew Friedman</author>
+  <copyright>Released under GNU/GPL License</copyright>
+  <authorEmail>mf@marjoram.net</authorEmail>
+  <authorUrl>www.whatismoving.com</authorUrl>
+  <version>0.8.2</version>
+  <description>Events calendar with very nice CSS display. Created for MamboServer based on the excellent ExtCal 2 program by Mohamed Moujami (SimoAmi), at http://extcal.sourceforge.net/ based on its Beta 1 release and CVS files as of Feb. 23, 2005. NOTE that this minicalendar has several terrific options--especially for selecting or turning on/off mini-pictures--that you can change here in Administration by going to Modules > Site Modules and selecting ExtCalendar.</description>
+  <files>
+   <filename module="mod_extcalendar_minical">mod_extcalendar_minical.php</filename>
+  </files>
+  <params>
+	  <param name="mini_cal_def_picture" type="text" default="def_pic.gif" label="Default Picture Filename" description="The filename of the little picture to display. The file you choose MUST be uploaded manually to your server, into the folder components/com_extcalendar/images/minipics. (The default image, \'def_pic.gif\', is already there.) Recommended width of picture is 135 pixels." />
+	  <param name="picture" type="list" default="0" label="Picture Display Options" description="Type of display for the mini-picture. \'None\' is self-explanatory; \'Random\' chooses random pictures you\'ve uploaded to the \'minipics\' folder; to use the others you MUST upload image files manually to the folder components/com_extcalendar/images/minipics with NUMBERS as the names -- i.e. 1.gif, 2.gif., etc. Daily will use up to 365, a new one every day; Weekly will use up to 7, and so on. Images should be 135 pixels wide to avoid ugliness, but will be resized by the browser if they\'re not.">
+				<option value="0">None</option>
+				<option value="1">Default Image (already exists)</option>
+				<option value="2">Daily Rotation (must upload numbered images)</option>
+				<option value="3">Weekly Rotation (must upload numbered images)</option>
+				<option value="4">Random (must upload images, any name)</option>
+	  </param>
+	  <param name="navigation_controls" type="radio" default="1" label="Show Navigation Arrows" description="Yes is recommended. If No, then no arrows will display to move to next/previous month. But a bit of the CSS formatting goes away, too.">
+				<option value="1">Yes</option>
+				<option value="0">No</option>
+	  </param>
+	  <param name="show_minical_add_event_button" type="radio" default="1" label="Show 'Post New Event' Button" description="If \'yes\' then a small button appears below the minicalendar to add a new event.">
+				<option value="1">Yes</option>
+				<option value="0">No</option>
+	  </param>
+	  <param name="target" type="text" default="" label="Window Target When Clicking a Date" description="Leave blank to load in same window (same as \'_self\'). This is recommended. I can\'t think of any reason why you\'d type something here, but I included it it just in case. You can type \'_blank\' to have events open in a new window, which can get ugly, or maybe you have a set up where you need to target a different named frame or something." />
+	  <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (normally just \'table.moduletable\'), this allows individual module styling" />
+  </params>
+</mosinstall>

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>MAMBO EVENTS COMPONENT</title>
+  <style type="text/css">
+body{
+backgroundcolor: white;
+font-family: verdana,arial;
+}
+  </style>
+</head>
+<body>
+<h3>EXTCALENDAR (ExtCal2) COMPONENT</h3>
+<div style="font-size: 10px;">May 22 2005 :: Version 0.9<br>
+</div>
+<h4>IMPORTANT INSTRUCTIONS</h4>
+<p>Do not use to kill or injure.</p>
+<p>Despite working very well most of the time (and for many people all of the time) <strong><span style="color: #990000">this is beta software and there are going to be bugs</span>.</strong> If you have problems with it, first scroll down to &quot;Known Issues.&quot; Then read all the <a href="http://mamboforge.net/frs/?group_id=1168" target="newwin">Release Notes</a>, <a href="http://mamboforge.net/docman/?group_id=1168" target="newwin">Docs</a>, and <a href="http://mamboforge.net/forum/?group_id=1168" target="newwin">Forums</a>. If these don't answer your question, please post in the Forums and lodge a <a href="http://mamboforge.net/tracker/?atid=3764&group_id=1168&func=browse" target="newwin">Bug Report</a>. </p>
+<p>If you wish to allow  image uploading in connection with events, but it's not working, you may need to find some way to change the permissions of the &quot;com_extcalendar/upload&quot; directory to 777. (FTP clients and shell access don't usually work since a PHP file created the directory and &quot;owns&quot; it.) It <em>should</em> work already. This installation script attempts to chmod the designated folder as 777, so with any luck it should already work fine out of the box--at least on Linux web servers! </p>
+<p><img src="/components/com_extcalendar/index_image.gif" width="200" height="117" align="right">To make this component fit the look and feel of your site, you will have to go into the &quot;themes/default/style.css&quot; file and perhaps into &quot;themes/default/template.html&quot; and do some editing BEFORE installing the component. The default color scheme is a silvery blue, like this thumbnail, but you might have to rig the styles and maybe even the HTML  to make it fit your own look. </p>
+<p>Also, be sure to set your time zone and other options using the ExtCal Settings menu option under the Components menu.</p>
+<p>ExtCal has a brilliant &quot;mini-calendar&quot; which is NOT a part of this component. It is a SEPARATE installation, as it is a Mambo Module that you should be able to get from the same place you got the main component. You don't have to have the minical module installed to run the main component, but you DO have to have the component installed to run the module. The same is true for the &quot;Latest Events&quot; module. </p>
+<h4>USAGE NOTES</h4>
+<p>When you create or edit an event category in the Mambo Administration (under Components &gt; ExtCal Calendar &gt; Manage Event Categories), you have the option to &quot;Auto approve admin submissions&quot; and &quot;Auto approve user submissions&quot;. If you check the latter checkbox, then any site visitor can add events instantly to your calendar. If it's unchecked, then the event will be marked as not approved, and won't actually show up on the calendar until an Admin approves it.</p>
+<p>How do you approve user submitted events? By logging into your own FRONTEND as a Mambo administrator. When you are logged in as administrator, then a new button will appear on the calendar allowing you to approve, edit, and delete events. Note that this is NOT done from the back-end Administration area, it is done right there in the actual frontend calendar. But you do have to log in to the frontend as a Mambo admin. </p>
+<p>Each category can have its own settings for whether events need to be approved. </p>
+<h4>HISTORY</h4>
+<p>This component was cobbled together out of the Version 2, Beta 1 release (and CVS files as of Feb. 23, 2005) of the excellent ExtCalendar 2 app, by Mohamed Moujami (SimoAmi), at <a href="http://extcal.sourceforge.net" target="_blank">http://extcal.sourceforge.net</a>.</p>
+<p>It is based on a STOCK installation of the calendar, with obvious modifications to elements like login and session management and database calls in order to use Mambo's existing structure for this. So you may be able to look at future ExtCal versions and upgrade this Mambo component by doing careful comparisons.<br>
+  <br>
+  This version has language files for: </p>
+<ul>
+  <li>Brazilian Portuguese</li>
+  <li>Danish (thanks to mijji, wkn and andyman at Mambo's <a href="http://mamboforge.net/projects/danish/" target="_blank">Danish Language Translations</a>) </li>
+  <li>Dutch</li>
+  <li>English</li>
+  <li>French</li>
+  <li>German (thanks to Ben Kioo) </li>
+  <li>Italian</li>
+  <li>Spanish</li>
+  <li>Swedish (thanks to Tommie at Mambo's <a href="http://mamboforge.net/projects/swedish/" target="_blank">Swedish Language Project</a>) </li>
+</ul>
+<p>However, with the exception of <em>Danish, German,</em> and <em>Swedish</em>, which were done by experts,  I cannot guarantee the accuracy of the non-English language files; they should be checked and not taken for granted; they were done by other people and <strong>may be incomplete or inaccurate</strong>. All the basic language elements for the public interface seem to be there, however, as far as I've checked. Ones with obvious language gaps I removed.</p>
+<p>Also, there are some pieces of text in the Administration area of the component
+  which are ONLY in English. You can manually change the &quot;admin.config.inc.php&quot;
+  file to translate the text on the Edit Settings screen if you want; I deliberately
+  avoided adding new entries to the language files, which would have meant creating
+  new translations in every language and losing language-file compatibility with
+  the standalone ExtCal script.</p>
+<p>If you like this component, visit my page at <a href="http://www.whatismoving.com" target="_blank">www.whatismoving.com</a> and buy a copy of my kick-ass independent film!</p>
+<h4>KNOWN ISSUES</h4>
+<ul>
+  <li>The component seems to have trouble with gzip compression. Looking into it. For now, it looks like you can NOT use gzip compression if you are using ExtCal.</li>
+  <li>&quot;Not Authorized to View this Resource&quot; errors occur for a small minority of users due to some bugs in the Mambo security features. This matter is discussed in <a href="http://mamboforge.net/forum/message.php?msg_id=17351" target="newwin">this Forum thread</a>, where a complete solution was provided by the excellent work of Scott Billings. </li>
+  <li>The component was reworked in Version 9 to provide compatibility with Mambo version 4.5.1x. However, I do NOT have this version installed, so I cannot verify whether it actually works!</li>
+  <li>Because of how extensively the script relies on its own database functions, it does not comply with the Mambo database model except in the most basic sense that it uses the Mambo database class to set and make queries. After that, it just uses its own functions to process things. For those of you who have strict security concerns, you might want to check the various database calls and make sure that some of the double-checks that Mambo's database abstraction layer does (like check for and compensate for &quot;magic_quotes&quot;) aren't necessary security measures for your site. </li>
+  <li>The ExtCal script contains a stripslashes routine which runs on <em>all</em> POST and  GET values for systems that have magic_quotes_gpc enabled. If this is the case for you, and things start to screw up in <em>other</em> components and modules of your site, this could be why. It's an outside chance, I think, but remotely possible. So if you get weird behavior in your <em>other</em> site areas after installing this, consider deleting the whole &quot;function stripslashes_deep($value)&quot; function and calls in config.inc.php.</li>
+  <li>There is an error that some users have reported with and &quot;open_basdir&quot; error message, especially when uploading photos for events. This is NOT a bug in ExtCal, but has to do with security restrictions on your web server. If you get this kind of error, research it and try to work it out with your web hosting provider, and if you solve it, please <a href="http://mamboforge.net/forum/?group_id=1168" target="newwin">post your results in the Forums</a>! Here are 3 links I found that help you troubleshoot this issue: <a href="http://www.ez.no/ez_publish/documentation/configuration/troubleshooting/open_basedir_restriction" target="newwin">Link 1</a>, <a href="http://bugs.php.net/bug.php?id=19292" target="newwin">Link 2</a>, <a href="http://www.faqts.com/knowledge_base/view.phtml/aid/18472" target="newwin">Link 3</a> </li>
+</ul>
+</body>
+</html>

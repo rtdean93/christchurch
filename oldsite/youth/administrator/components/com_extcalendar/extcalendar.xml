@@ -1,0 +1,320 @@
+<?xml version="1.0" ?>
+<mosinstall type="component">
+	<name>ExtCalendar</name>
+	<creationDate>May 22, 2005</creationDate>
+	<author>Matthew Friedman</author>
+	<copyright>This component is released under the GNU/GPL License</copyright>
+	<authorEmail>mf@marjoram.net</authorEmail>
+	<authorUrl>www.whatismoving.com</authorUrl>
+	<version>0.9.1</version>
+	<description>Events calendar with very nice CSS display. Created for MamboServer based on the excellent ExtCal 2 program by Mohamed Moujami (SimoAmi), at http://extcal.sourceforge.net/ based on its Beta 1 release and CVS files as of Feb. 23, 2005.</description>
+	<files>
+		<filename>admin_events.php</filename>	
+		<filename>cal_popup.php</filename>
+		<filename>cal_search.php</filename>
+		<filename>config.inc.php</filename>
+		<filename>extcalendar.class.php</filename>
+		<filename>extcalendar.php</filename>
+		<filename>index.html</filename>
+		<filename>install.extcalendar.php</filename>
+		<filename>LICENSE</filename>
+		<filename>uninstall.extcalendar.php</filename>
+
+		<filename>images/index.html</filename>
+		
+		<filename>include/colorpicker.php</filename>
+		<filename>include/dblib.php</filename>
+		<filename>include/functions.inc.php</filename>
+		<filename>include/index.html</filename>
+		<filename>include/installed.dis</filename>
+		<filename>include/sql_parse.php</filename>
+
+		<filename>languages/brazilian_portuguese/index.php</filename>
+		<filename>languages/danish/index.php</filename>
+		<filename>languages/dutch/index.php</filename>
+		<filename>languages/english/index.php</filename>
+		<filename>languages/french/index.php</filename>
+		<filename>languages/german/index.php</filename>
+		<filename>languages/italian/index.php</filename>
+		<filename>languages/spanish/index.php</filename>
+		<filename>languages/swedish/index.php</filename>
+		
+		<filename>lib/class.phpmailer.php</filename>
+		<filename>lib/class.smtp.php</filename>
+		<filename>lib/event.inc.php</filename>
+		<filename>lib/index.html</filename>
+		<filename>lib/mail.inc.php</filename>
+		<filename>lib/xmlrpc.inc</filename>
+		
+		<filename>themes/default/style.css</filename>
+		<filename>themes/default/template.html</filename>
+		<filename>themes/default/theme.php</filename>
+		<filename>themes/default/images/addsign.gif</filename>
+		<filename>themes/default/images/addsign_a.gif</filename>
+		<filename>themes/default/images/arrowleft.gif</filename>
+		<filename>themes/default/images/arrowright.gif</filename>
+		<filename>themes/default/images/banner.png</filename>
+		<filename>themes/default/images/bannerbg.gif</filename>
+		<filename>themes/default/images/bg1.gif</filename>
+		<filename>themes/default/images/box_left_icon.gif</filename>
+		<filename>themes/default/images/btn_bg.gif</filename>
+		<filename>themes/default/images/btn_bold.gif</filename>
+		<filename>themes/default/images/btn_center.gif</filename>
+		<filename>themes/default/images/btn_image.gif</filename>
+		<filename>themes/default/images/btn_italic.gif</filename>
+		<filename>themes/default/images/btn_left.gif</filename>
+		<filename>themes/default/images/btn_link.gif</filename>
+		<filename>themes/default/images/btn_right.gif</filename>
+		<filename>themes/default/images/btn_underline.gif</filename>
+		<filename>themes/default/images/days1.gif</filename>
+		<filename>themes/default/images/days2.gif</filename>
+		<filename>themes/default/images/def_pic.gif</filename>
+		<filename>themes/default/images/errormessage.gif</filename>
+		<filename>themes/default/images/icon-add.gif</filename>
+		<filename>themes/default/images/icon-addevent.gif</filename>
+		<filename>themes/default/images/icon-apprevent.gif</filename>
+		<filename>themes/default/images/icon-archive.gif</filename>
+		<filename>themes/default/images/icon-calendarview.gif</filename>
+		<filename>themes/default/images/icon-cat-active.gif</filename>
+		<filename>themes/default/images/icon-cat-inactive.gif</filename>
+		<filename>themes/default/images/icon-cats.gif</filename>
+		<filename>themes/default/images/icon-colorpicker.gif</filename>
+		<filename>themes/default/images/icon-daily.gif</filename>
+		<filename>themes/default/images/icon-del.gif</filename>
+		<filename>themes/default/images/icon-delevent.gif</filename>
+		<filename>themes/default/images/icon-edit.gif</filename>
+		<filename>themes/default/images/icon-editevent.gif</filename>
+		<filename>themes/default/images/icon-event-active.gif</filename>
+		<filename>themes/default/images/icon-event-enddate.gif</filename>
+		<filename>themes/default/images/icon-event-inactive.gif</filename>
+		<filename>themes/default/images/icon-event-middate.gif</filename>
+		<filename>themes/default/images/icon-event-onedate.gif</filename>
+		<filename>themes/default/images/icon-event-startdate.gif</filename>
+		<filename>themes/default/images/icon-flyer.gif</filename>
+		<filename>themes/default/images/icon-group.gif</filename>
+		<filename>themes/default/images/icon-info.gif</filename>
+		<filename>themes/default/images/icon-loginpic.gif</filename>
+		<filename>themes/default/images/icon-mini-week.gif</filename>
+		<filename>themes/default/images/icon-minus.gif</filename>
+		<filename>themes/default/images/icon-photo.gif</filename>
+		<filename>themes/default/images/icon-plus.gif</filename>
+		<filename>themes/default/images/icon-print.gif</filename>
+		<filename>themes/default/images/icon-recur-event-active.gif</filename>
+		<filename>themes/default/images/icon-recur-event-inactive.gif</filename>
+		<filename>themes/default/images/icon-release-dev.gif</filename>
+		<filename>themes/default/images/icon-release.gif</filename>
+		<filename>themes/default/images/icon-search.gif</filename>
+		<filename>themes/default/images/icon-tag-menu.gif</filename>
+		<filename>themes/default/images/icon-update.gif</filename>
+		<filename>themes/default/images/icon-user-active.gif</filename>
+		<filename>themes/default/images/icon-user-inactive.gif</filename>
+		<filename>themes/default/images/icon-user-profile.jpg</filename>
+		<filename>themes/default/images/icon-user.gif</filename>
+		<filename>themes/default/images/icon-visibility.gif</filename>
+		<filename>themes/default/images/icon-weekly.gif</filename>
+		<filename>themes/default/images/logo.gif</filename>
+		<filename>themes/default/images/mini_arrowleft.gif</filename>
+		<filename>themes/default/images/mini_arrowleft_inactive.gif</filename>
+		<filename>themes/default/images/mini_arrowright.gif</filename>
+		<filename>themes/default/images/minical.png</filename>
+		<filename>themes/default/images/preview.gif</filename>
+		<filename>themes/default/images/rect.gif</filename>
+		<filename>themes/default/images/tile_back1.gif</filename>
+		<filename>themes/default/images/tile_sub.gif</filename>
+		<filename>themes/default/images/txtboxbg.gif</filename>
+
+		<filename>upload/index.html</filename>
+
+	</files>
+	<images>
+		<filename>index_image.gif</filename>
+		<filename>images/minipics/def_pic.gif</filename>
+		<filename>images/box_left_icon.gif</filename>
+		<filename>images/colorpicker.gif</filename>
+		<filename>images/errormessage.gif</filename>
+		<filename>images/icon-colorpicker.gif</filename>
+		<filename>images/icon-print.gif</filename>
+		<filename>images/mini_arrowleft.gif</filename>
+		<filename>images/mini_arrowright.gif</filename>
+		<filename>images/selected.gif</filename>
+		<filename>images/spacer.gif</filename>
+		<filename>images/tile_back1.gif</filename>
+		<filename>images/txtboxbg.gif</filename>          
+	</images>
+	<install>
+		<queries>
+			<query>CREATE TABLE IF NOT EXISTS #__extcal_categories (
+					  cat_id int(11) NOT NULL auto_increment,
+					  cat_parent int(11) NOT NULL default '0',
+					  cat_name varchar(150) NOT NULL default '',
+					  description text NOT NULL,
+					  color varchar(10) default '#000000',
+					  bgcolor varchar(10) default '#EEF0F0',
+					  options tinyint(4) default '0',
+					  published tinyint(1) default '0',
+					  checked_out int(11) unsigned NOT NULL default '0',
+					  checked_out_time datetime NOT NULL default '0000-00-00 00:00:00',
+					  PRIMARY KEY  (cat_id),
+					  UNIQUE KEY cat_id (cat_id)
+					) TYPE=MyISAM COMMENT = 'Table for event categories';
+			</query>
+			<query>CREATE TABLE IF NOT EXISTS #__extcal_events (
+					  extid int(11) NOT NULL auto_increment,
+					  title varchar(255) NOT NULL default '',
+					  description text NOT NULL,
+					  contact text NOT NULL,
+					  url varchar(100) NOT NULL default '',
+					  email varchar(120) NOT NULL default '',
+					  picture varchar(100) NOT NULL default '',
+					  cat tinyint(2) NOT NULL default '0',
+					  day tinyint(2) NOT NULL default '0',
+					  month smallint(2) NOT NULL default '0',
+					  year smallint(4) NOT NULL default '0',
+					  approved tinyint(1) NOT NULL default '0',
+					  start_date datetime NOT NULL default '0000-00-00 00:00:00',
+					  end_date datetime default '0000-00-00 00:00:00',
+					  recur_type varchar(16) default NULL,
+					  recur_val tinyint(4) default '0',
+					  recur_end_type tinyint(1) unsigned NOT NULL default '0',
+					  recur_count tinyint unsigned NOT NULL default '0',
+					  recur_until date default '0000-00-00',
+					  PRIMARY KEY  (extid),
+					  UNIQUE KEY extid (extid),
+					  KEY start_date (start_date)
+					) TYPE=MyISAM COMMENT = 'Table holding events and their attributes';
+			</query>
+			<query>CREATE TABLE IF NOT EXISTS #__extcal_config (
+					  name varchar(40) NOT NULL default '',
+					  value varchar(255) NOT NULL default '',
+					  checked_out int(11) unsigned NOT NULL default '0',
+					  checked_out_time datetime NOT NULL default '0000-00-00 00:00:00',
+					  PRIMARY KEY  (name)
+					) TYPE=MyISAM COMMENT = 'Table for configurable parameters';
+			</query>
+			<query>CREATE TABLE IF NOT EXISTS #__extcal_plugins (
+					  plugin_id int(11) NOT NULL auto_increment,
+					  plugin_name varchar(64) NOT NULL,
+					  plugin_priority tinyint(2) unsigned NOT NULL default '50',
+					  plugin_path varchar(255) default null,
+					  PRIMARY KEY(plugin_id)
+					) TYPE = MYISAM COMMENT = 'Table holding installed plugins';
+			</query>
+
+			<query>INSERT INTO #__extcal_categories VALUES (1,0,'General', 'This is the default category', '#000000','#EEF0F0', 2, 1, 0, '0000-00-00 00:00:00');</query>
+
+			<query>INSERT INTO #__extcal_config VALUES ('allowed_file_extensions', 'GIF/PNG/JPG/JPEG', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('max_upl_size', '20000', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('cookie_name', 'ext20', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('cookie_path', '/', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('debug_mode', '0', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('events_per_page', '10', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('calendar_name', 'Mambo ExtCalendar', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('calendar_admin_email', '', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('calendar_description', 'Your online events calendar', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('lang', 'english', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('charset', 'language file', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('main_table_width', '100%', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('max_tabs', '12', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('theme', 'default', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('timezone', '-5', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('time_format_24hours', '0', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('auto_daylight_saving', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('default_view', '2', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('popup_event_mode', '0', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('popup_event_width', '550', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('popup_event_height', '300', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('add_event_view', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('cats_view', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('daily_view', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('weekly_view', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('monthly_view', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('flyer_view', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('search_view', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('day_start', '0', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('archive', '0', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('flyer_show_picture', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('addevent_allow_html', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('addevent_allow_contact', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('addevent_allow_email', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('addevent_allow_url', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('addevent_allow_picture', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('new_post_notification', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('cal_view_max_chars', '100', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('flyer_view_max_chars', '100', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('weekly_view_max_chars', '100', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('daily_view_max_chars', '100', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('cats_view_max_chars', '100', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('mini_cal_def_picture', 'def_pic.gif', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('mini_cal_diplay_options', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('release_name', 'Mambo Version of 2.0 Beta 1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('release_version', 'Mambo Version of 2.00.25', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('release_type', 'Unique MamboServer Version', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('sort_order', 'ta', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('picture_chmod', '0644', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('max_upl_dim', '450', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('allow_user_registration', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('reg_email_verify', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('reg_duplicate_emails', '0', 0, '0000-00-00 00:00:00');</query>
+
+			<query>INSERT INTO #__extcal_config VALUES ('calendar_status', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('show_recurrent_events', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('multi_day_events', 'all', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('cal_view_show_week', '1', 0, '0000-00-00 00:00:00');</query>
+
+			<query>INSERT INTO #__extcal_config VALUES ('mail_method', 'mail', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('mail_smtp_host', 'smtp.myhost.com', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('mail_smtp_auth', '0', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('mail_smtp_username', '', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('mail_smtp_password', '', 0, '0000-00-00 00:00:00');</query>
+
+			<query>INSERT INTO #__extcal_config VALUES ('url_target_for_events', '_blank', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('capitalize_event_titles', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('show_top_navigation_bar', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('who_can_add_events', 'Anyone', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('who_can_edit_events', 'Registered', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('who_can_delete_events', 'Administrator', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('show_recurrence_info_event_view', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('show_recurrence_info_category_view', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('sort_category_view_by', 'date_asc', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('show_only_start_times', '0', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('show_event_times_in_monthly_view', '0', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('show_event_times_in_flat_view', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('show_event_times_in_weekly_view', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('show_event_times_in_daily_view', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('show_overlapping_recurrences_monthlyview', '1', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('show_overlapping_recurrences_flatview', '0', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('show_overlapping_recurrences_weeklyview', '0', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('show_overlapping_recurrences_dailyview', '0', 0, '0000-00-00 00:00:00');</query>
+			<query>INSERT INTO #__extcal_config VALUES ('allow_javascript_in_event_urls', '0', 0, '0000-00-00 00:00:00');</query>
+		</queries>
+	</install>
+	<uninstall>
+		<queries>
+			<query>DELETE FROM `#__extcal_categories`</query>
+			<query>DROP TABLE `#__extcal_categories`</query>
+			<query>DELETE FROM `#__extcal_events`</query>
+			<query>DROP TABLE `#__extcal_events`</query>
+			<query>DELETE FROM `#__extcal_config`</query>
+			<query>DROP TABLE `#__extcal_config`</query>
+			<query>DELETE FROM `#__extcal_plugins`</query>
+			<query>DROP TABLE `#__extcal_plugins`</query>
+		</queries>
+	</uninstall>
+	<installfile>install.extcalendar.php</installfile>
+	<uninstallfile>uninstall.extcalendar.php</uninstallfile>
+	<administration>
+		<menu>ExtCal Calendar</menu>
+			<submenu>
+				<menu task="showCategories">Manage Event Categories</menu>
+				<menu task="showSettings">ExtCal Settings</menu>
+			</submenu>
+		<files>
+			<filename>admin.config.inc.php</filename>
+			<filename>admin.extcalendar.html.php</filename>
+			<filename>admin.extcalendar.php</filename>
+			<filename>admin_settings.php</filename>
+			<filename>toolbar.extcalendar.html.php</filename>
+			<filename>toolbar.extcalendar.php</filename>
+		</files>
+	</administration>
+</mosinstall>

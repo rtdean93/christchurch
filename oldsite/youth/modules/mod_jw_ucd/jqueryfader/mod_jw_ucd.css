@@ -1,0 +1,41 @@
+/*
+// JW "Ultimate Content Display" Module for Joomla! 1.0.x - Version 1.0
+// License: http://www.gnu.org/copyleft/gpl.html
+// Authors: Fotis Evangelou - George Chouliaras - Luca Scarpa
+// Copyright (c) 2006 - 2007 JoomlaWorks.gr - http://www.joomlaworks.gr
+// Project page at http://www.joomlaworks.gr - Demos at http://demo.joomlaworks.gr
+// Support forum at http://forum.joomlaworks.gr
+// ***Last update: June 7th, 2007***
+*/
+
+div.udc {}
+
+/* List styling */
+ul.udc_jqueryfader {margin:8px;padding:0px;list-style:none;}
+ul.udc_jqueryfader li {margin:0px;padding:0px;border:none;background:none;float:none;width:100%;}
+
+/* Title */
+ul.udc_jqueryfader li div.udc_title {float:none;background:none;}
+
+/* Date */
+ul.udc_jqueryfader li span.udc_date {color:#909090;margin-right:4px;font-size:11px;}
+
+/* Section/Category */
+ul.udc_jqueryfader li span.udc_sec_cat {font-size:11px;}
+
+/* Introtext styling */
+ul.udc_jqueryfader li p.introtext {padding:0px;margin:0px;}
+
+/* "Readmore" button */
+ul.udc_jqueryfader li a.udc_readon {display:block;float:none;font-size:11px;padding:0px;margin:4px 0px 8px 0px;text-align:right;}
+ul.udc_jqueryfader li a.udc_readon:hover {display:block;float:none;font-size:11px;padding:0px;margin:4px 0px 8px 0px;text-align:right;}
+
+/* Style cleanup */
+ul.udc_jqueryfader li p.introtext p {padding:0px;margin:0px;}
+ul.udc_jqueryfader,
+ul.udc_jqueryfader li {overflow:hidden;}
+
+/* Bottom fade */
+.udc_jqueryfader_bottomfade {background:url("bottomfade.png") repeat-x bottom;position:relative;height:20px;width:100%;margin-top:-28px;}
+
+/* --- END --- */

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<expose version="2.0">
+<!-- CUSTOM ADDONS -->
+	<param name="Language" value="english" type="string" comment="Set the tag-language to use from strings.xml"/>
+	<param name="Gallery width" value="840" type="integer" comment="Adjusts the main gallery width"/>	
+	<param name="Gallery height" value="570" type="integer" comment="Adjusts the main gallery height"/>	
+	<param name="Gallery Background" value="ffffff" type="integer" comment="Adjusts the main gallery background"/>
+	<param name="Gallery Background Image" value="" type="string" comment="Sets the main gallery background image. You can upload images using the Upload BG button. Just remember to refresh the page."/>
+	<param name="Main Panel Y" value="255" type="integer" comment="Adjusts the vertical position (in pixels) of the main panel. Enter an interger."/>
+	<param name="Main Panel Tooltip Text Position" value="above" type="string" comment="Enter above|below "/>
+	<param name="Main Panel Height" value="36" type="integer" comment="Adjusts the height of the main panel. Enter an interger"/>
+	<param name="Main Panel Previous Image Button X" value="0" type="integer" comment="Adjusts the horizontal position (in pixels) of the previous image button within the main panel. Enter an interger."/>
+	<param name="Main Panel Next Image Button X" value="60" type="integer" comment="Adjusts the horizontal position (in pixels) of the next image button within the main panel. Enter an interger."/>
+	<param name="Main Panel Slide Show Button X" value="180" type="integer" comment="Adjusts the horizontal position (in pixels) of the slideshow button within the main panel. Enter an interger."/>
+	<param name="Main Panel Audio Comment Button X" value="300" type="integer" comment="Adjusts the horizontal position (in pixels) of the audio comment button within the main panel. Enter an interger."/>
+	<param name="Main Panel Image Description Button X" value="260" type="integer" comment="Adjusts the horizontal position (in pixels) of the image description button within the main panel. Enter an interger."/>	
+	<param name="Main Panel Select Album Button X" value="680" type="integer" comment="Adjusts the horizontal position (in pixels) of the select album button within the main panel. Enter an interger."/>
+	<param name="Main Panel Image Strip Button X" value="630" type="integer" comment="Adjusts the horizontal position (in pixels) of the show image strip button within the main panel. Enter an interger."/>
+	<param name="Main Panel Image Counter X" value="130" type="integer" comment="Adjusts the horizontal position (in pixels) of the image counter within the main panel. Enter an interger."/>
+	<param name="Main Panel Image Counter Y" value="-2" type="integer" comment="Adjusts the vertical position (in pixels) of the image counter within the main panel. Enter an interger."/>
+	<param name="Main Panel Album Info X" value="500" type="integer" comment="Adjusts the horizontal position (in pixels) of the album info within the main panel. Enter an interger."/>
+	<param name="Main Panel Album Info Y" value="5" type="integer" comment="Adjusts the horizontal position (in pixels) of the album info within the main panel. Enter an interger."/>
+	<param name="Main Panel Help Button X" value="878" type="integer" comment="Adjusts the horizontal position (in pixels) of the help button within the main panel. Enter an interger."/>
+<!-- END CUSTOM ADDONS -->
+	<param name="Image X" value="0" type="integer" comment="Adjusts the horizontal position (in pixels) of the image. Enter an interger."/>
+	<param name="Image Y" value="-5" type="integer" comment="Adjusts the vertical position (in pixels) of the image. Enter an interger."/>
+	<param name="Image Strip Scrollbar Y" value="140" type="integer" comment="Adjusts the vertical position (in pixels) of the image strip scrollbar. Enter an interger."/>
+	<param name="Image Strip Y" value="-5" type="integer" comment="Adjusts the vertical position (in pixels) of the image strip. Enter an interger."/>
+	<param name="Image Strip Height" value="200" type="integer" comment="Adjusts the height (in pixels) of the image strip. Enter an interger."/>
+	<param name="Image Strip Min Scale" value="50" type="integer" comment="Adjust the minimum scale (as a percentage) of image thumbnails when displayed in the image strip. Enter an interger."/>	
+	<param name="Image Strip Min Alpha" value="50" type="integer" comment="When an image in the image strip is in focus (i.e. moused-over), the alpha levels of the other images is reduced by this percentage. Enter an interger."/>	
+	<param name="Image Strip Scroll Color" value="ffffff" type="hex" comment="The strip scroll are areas on the left and right of the image strip that indicate the scroll direction. This parameter controls the default color. Enter a color (in hex format)."/>	
+	<param name="Image Strip Scroll Rollover Color" value="f5f5f5" type="hex" comment="Adjusts the color of the strip scroll when in focus (i.e. moused-over). Enter a color (in hex format). "/>
+	<param name="Image Strip Scroll Color Alpha" value="100" type="integer"/>
+	<param name="Image Strip Scroll Event" value="Rollover" type="string"/>
+	<param name="Image Strip Image Info Y" value="-20" type="integer" comment="Adjusts the vertical position (in pixels) of the image info when a thumbnail is in focus (i.e. moused-over). Enter an interger."/>
+	<param name="Image Strip Image Info Vertical Separation" value="16" type="integer" comment="Adjusts the vertical separation between the image name and image date/location . Enter an interger."/>
+	<param name="Image Strip Image Description Y" value="200" type="integer" comment="Adjusts the vertical position (in pixels) of the image description when a thumbnail is in focus (i.e. moused-over). Enter an interger."/>	
+	<param name="Image Strip Image Description Width" value="250" type="integer" comment="Adjust the width (in pixels) of the image description when a thumbnail is in focus (i.e. moused-over). Enter an interger."/>	
+	<param name="Image Strip Image Description Color" value="f0f0f0" type="hex" comment="Adjusts the color of the image description area when a thumbnail is in focus (i.e. moused-over). Enter a color (in hex format)."/>
+	<param name="Image Strip Image Description Alpha" value="90" type="integer" comment="Adjusts the alpha level of the image description area when a thumbnail is in focus (i.e. moused-over). Enter an interger."/>	
+	<param name="Image Strip Image Mask Curvature" value="3" type="integer" comment="Adjusts the curvature of the image thumbnails. Enter an interger."/>
+	<param name="Image Strip Image Shadow Enabled" value="yes" type="boolean" comment="Toggles shadowing of the image thumbnails. Options: yes|no"/>
+	<param name="Image Strip Image Shadow Size" value="15" type="integer" comment="Adjusts the size of the thumnail shadow (in pixels). Enter an interger."/>
+	<param name="Image Strip Image Shadow Delta" value="7" type="integer" comment="Comment. Enter an interger."/>
+	<param name="Image Strip Image Shadow Delta X" value="1" type="integer" comment="Adjusts the horizontal displacement (in pixels) of the thumbnail shadow. Enter an interger."/>
+	<param name="Image Strip Image Shadow Delta Y" value="2" type="integer" comment="Adjusts the vertical displacement (in pixels) of the thumbnail shadow. Enter an interger."/>
+	<param name="Image Strip Image Shadow Alpha" value="60" type="integer" comment="Adjusts the alpha levels (as a percentage) of the shadow. Enter an interger."/>
+	<param name="Image Strip Image Bevel Curvature" value="5" type="integer" comment="Adjusts the curvature of the bevel corners. Enter an interger."/>
+	<param name="Image Strip Image Bevel Width" value="5" type="integer" comment="Adjusts the width of the bevel padding. Enter an interger."/>
+	<param name="Image Strip Image Bevel Outline Thickness" value="2.25" type="float" comment="Adjusts the thickness (in pixels) of the bevel border. Options: option1|option2|option3"/>
+	<param name="Image Strip Image Bevel Outline Color" value="e8e8e8" type="hex" comment="Adjusts the color of the bevel border. Enter a color (in hex format)."/>
+	<param name="Image Strip Image Bevel Outline Color Alpha" value="100" type="integer" comment="Adjusts the alpha level (as a percentage) of the bevel border. Enter an interger."/>
+	<param name="Image Strip Image Bevel Color" value="ffffff" type="hex" comment="Comment. Enter a color (in hex format)."/>
+	<param name="Image Strip Image Bevel Color Alpha" value="100" type="integer" comment="Comment. Enter a color (in hex format)."/>	
+	<param name="Image Strip Max Visible Images" value="10" type="integer" comment=" Enter integer"/>	
+	<param name="Image Strip Gradient Enabled" value="yes" type="boolean" comment="Enable image strip gradient images. (NO if you change the background color.) Enter yes|no"/>	
+	<param name="Image Info Type" value="piped" type="string"/>
+	<param name="Image Info Piped Vertical Separation" value="16" type="integer"/>
+	<param name="Image Info Rowed Vertical Separation 1" value="9" type="integer"/>
+	<param name="Image Info Rowed Vertical Separation 2" value="3" type="integer"/>
+	<param name="Image Info X" value="0" type="integer"/>
+	<param name="Image Info Y" value="-30" type="integer"/>
+	<param name="Image Info Anchor" value="image" type="string"/>
+	<param name="Image Info Horizontal Orientation" value="center" type="string"/>
+	<param name="Image Info Vertical Orientation" value="top" type="string"/>
+	<param name="Image Info Rowed Text Horizontal Alignment" value="right" type="string"/>
+	<param name="Image Info Rowed Max Width" value="300" type="integer"/>
+	<param name="Image Info Horizontal Alignment" value="center" type="string"/>
+	<param name="Audio Comment Volume" value="30" type="integer"/>
+	<param name="Slide Show Time" value="5" type="integer" comment="Slide show time in seconds"/>
+	<param name="Slide Show Loop" value="yes" type="boolean" comment="Loop the slide show Enter yes|no"/>
+	<param name="Help Guide Enabled" value="yes" type="boolean" comment="Enable the help guide. Enter yes|no"/>
+	<param name="Help Guide Y" value="180" type="integer" Comment="Vertical alignment of the help gudie. Enter integer"/>	
+	<param name="Image Mask Curvature" value="0" type="integer"/>
+	<param name="Image Shadow Enabled" value="yes" type="boolean"/>
+	<param name="Image Shadow Size" value="15" type="integer"/>
+	<param name="Image Shadow Delta" value="7" type="integer"/>
+	<param name="Image Shadow Delta X" value="1" type="integer"/>
+	<param name="Image Shadow Delta Y" value="2" type="integer"/>
+	<param name="Image Shadow Alpha" value="60" type="integer"/>
+	<param name="Image Bevel Curvature" value="0" type="integer"/>
+	<param name="Image Bevel Width" value="5" type="integer"/>
+	<param name="Image Bevel Outline Thickness" value="2.25" type="float"/>
+	<param name="Image Bevel Outline Color" value="f8f8f8" type="hex"/>
+	<param name="Image Bevel Outline Color Alpha" value="0" type="integer"/>
+	<param name="Image Bevel Color" value="ffffff" type="hex"/>
+	<param name="Image Bevel Color Alpha" value="100" type="integer"/>
+	<param name="Image Fade Speed" value="5" type="integer"/>
+	<param name="Album List X" value="-260" type="integer"/>
+	<param name="Album List Y" value="-0" type="integer"/>
+	<param name="Album List Rows" value="5" type="integer"/>
+	<param name="Album List Column Color" value="ffffff" type="hex"/>	
+	<param name="Album List Column Curvature" value="6" type="integer"/>	
+	<param name="Album List Column Scroll Size" value="22" type="integer"/>
+	<param name="Album List Column Scroll Color" value="ffffff" type="hex"/>		
+	<param name="Album List Column Scroll Rollover Color" value="e0e0e0" type="hex"/>		
+	<param name="Album List Scroll Color" value="e0e0e0" type="hex"/>
+	<param name="Album List Scroll Color Alpha" value="100" type="integer"/>
+	<param name="Album List Item Selected Color" value="f0f0f0" type="hex"/>
+	<param name="Album List Item Selected Expansion" value="15" type="integer"/>
+	<param name="Album List Item Rollover Color" value="f7f7f7" type="hex"/>
+	<param name="Album List Item Color Alpha" value="100" type="integer"/>
+<!-- CUSTOM ADDONS -->
+	<param name="Album List Item Width" value="210" type="integer"/>
+<!-- END CUSTOM ADDONS -->
+	<param name="Album List Item Height" value="60" type="integer"/>
+	<param name="Album List Item Curvature" value="6" type="integer"/>	
+	<param name="Album List Item Text X" value="80" type="integer"/>		
+	<param name="Album List Item Thumb X" value="38" type="integer"/>	
+	<param name="Album List Item Thumb Mask Curvature" value="3" type="integer"/>	
+	<param name="Album List Item Thumb Bevel Curvature" value="3" type="integer"/>
+	<param name="Album List Item Thumb Bevel Width" value="0" type="integer"/>
+	<param name="Album List Item Thumb Bevel Outline Thickness" value="2.25" type="float"/>
+	<param name="Album List Item Thumb Bevel Outline Color" value="666666" type="hex"/>
+	<param name="Album List Item Thumb Bevel Outline Color Alpha" value="100" type="integer"/>
+	<param name="Album List Item Thumb Bevel Color" value="999999" type="hex"/>
+	<param name="Album List Item Thumb Bevel Color Alpha" value="100" type="integer"/>	
+	<param name="Album List Panel Color" value="ffffff" type="hex"/>
+	<param name="Album List Panel Color Alpha" value="0" type="integer"/>
+	<param name="Album List Cancel Button X" value="10" type="integer"/>
+	<param name="Album Info Width" value="250" type="integer"/>
+	<param name="Album Info Panel Color" value="f8f8f8" type="hex"/>
+	<param name="Album Info Panel Color Alpha" value="90" type="integer"/>
+	<param name="Album Info Line Color" value="d0d0d0" type="hex"/>	
+	<param name="Album Info Text Position" value="above" type="string"/>
+	<param name="Image Description Fadeout Time" value="7" type="integer"/>
+	<param name="Image Description Horizontal Alignment" value="right" type="string"/>
+	<param name="Image Description Vertical Alignment" value="top" type="string"/>
+	<param name="Image Description X" value="-14" type="integer"/>
+	<param name="Image Description Y" value="14" type="integer"/>
+	<param name="Image Description Panel Color" value="333333" type="hex"/>
+	<param name="Image Description Panel Color Alpha" value="30" type="integer"/>
+	<param name="Image Description Max Width" value="230" type="integer"/>
+	<param name="Image Description Horizontal Orientation" value="right" type="string"/>
+	<param name="Image Description Vertical Orientation" value="top" type="string"/>
+	<param name="Image Description Anchor" value="image" type="string"/>			
+	<param name="Image Preloading Enabled" value="yes" type="boolean"/>
+	<param name="Help Panel Color" value="f8f8f8" type="hex"/>				
+	<param name="Image Load Timeout" value="600" type="integer"/>
+	<param name="SpeedSense Enabled" value="no" type="boolean" comment="Enable speedsence. Enter yes|no"/>
+</expose>

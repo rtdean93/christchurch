@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.0">
+	<name>RT Slideshow</name>
+	<author>Joomla! Project - RocketTheme</author>
+	<creationDate>Dec 2006</creationDate>
+	<copyright>(C) 2006 RocketTheme.com - All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>support@rockettheme.com</authorEmail>
+	<authorUrl>www.rockettheme.com</authorUrl>
+	<version>1.0.2</version>
+	<description>
+		<![CDATA[
+		<h1>RT Slideshow Module</h1>
+
+		<p>This module uses mootools toolkit to crossfade images to form a rotating header effect or gallery.  If there exists an <b style="color:blue;">imagename.txt</b> file with 3 lines, first line being the url to link to, the title second, and the third line being the description, they will be displayed with the image. Here is an example .txt file:</p>
+		
+		<p style="background:#efefef;border:1px solid #ccc;padding:20px;">
+		http://www.rockettheme.com
+		RocketTheme Joomla! Template Club
+		Join now to get access to all the latest and greatest Joomla! templates.	
+		</p>
+		
+		<p><i>NOTE: You can ommit the second and third lines, and just have a URL to have no text slide up and just have the image linkable.  You can also put # in place of the URL to have text but no linked URL.</i></p>
+		
+		<p><b>Joomfish</b> support has been added.  To take advantage of this just provide different versions of your text files with the format <b style="color:blue;">imagename.ISOCODE.txt</b>.  For example: <b style="color:blue;">sampleimage.en.txt</b></p>
+		
+		<p>To use this module outside of a 'supported' RocketTheme Joomla! template, please ensure you <b style="color:blue;">"enable"</b> the <b style="color:blue;">"Include Mootools JS Library"</b> setting in the module parameters, and also put the following between the &lt;head&gt;&lt;/head&gt; tags of your template:</p>
+		
+		<p style="background:#efefef;border:1px solid #ccc;padding:20px">
+		&lt;link href="&lt;?php echo $mosConfig_live_site;?&gt;/modules/rt_slideshow/slideshow.css" rel="stylesheet" type="text/css" /&gt;	
+		</p>
+		
+		<p>This modules is based on the excellent GPL <a href="http://www.jondesign.net/" target="_new">Smoothslideshow v2.1 by Jonathan Schemoul</a></p>
+
+		<h3>Changelog</h3>
+
+		<b>1.0.2</b><br />
+		<ul>
+		<li>Fixed an issue with Joomfish integration</li>	
+		<li>Added sort criteria and sort order</li>
+		</ul>
+
+		<b>1.0.1</b><br />
+		<ul>
+		<li>Added multilingual support based on Joomfish language code</li>
+		</ul>
+
+		<b>1.0</b><br />
+		<ul>
+		<li>Initial Release</li>
+		</ul>
+
+		]]>	
+		
+	</description>
+	<files>
+		<filename module="mod_rt_slideshow">mod_rt_slideshow.php</filename>
+		<filename>rt_slideshow/mootools.release.83.js</filename>
+		<filename>rt_slideshow/timed.slideshow.js</filename>
+		<filename>rt_slideshow/slideshow.css</filename>
+		<filename>rt_slideshow/loading-bar-black.gif</filename>
+	</files>
+	<params>
+	  <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+	  <param name="width" type="text" default="430" label="Width" description="Width of Slideshow in px" />
+	  <param name="height" type="text" default="200" label="Height" description="Height of Slideshow in px" />
+	<param name="duration" type="text" default="9000" label="Duration" description="Duration to stay on each image in ms" />
+	<param name="speed" type="text" default="700" label="Transition Speed" description="Time it takes to transition between images" />
+	  <param name="imagePath" type="text" default="images/stories/fruit/" label="Images Directory" description="Location of images to be used in the rotation" />
+		<param name="jslib" type="radio" default="0" label="Include Mootools JS Library" description="Select whether to include the JS lib as part of this module, Select No if the template already loads this">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="sortcriteria" type="radio" default="0" label="Sort Criteria" description="The sort criteria of the images files">
+			<option value="0">Alphabetical</option>
+			<option value="1">Date</option>
+		</param>
+		<param name="sortorder" type="radio" default="0" label="Sort Order" description="The sort order of the images files">
+			<option value="0">Ascending</option>
+			<option value="1">Descending</option>
+		</param>
+	</params>
+</mosinstall>
